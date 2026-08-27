@@ -1,0 +1,138 @@
+{
+  "tag": "primary",
+  "n_runs": 20,
+  "n_failed": 0,
+  "n_incomplete": 0,
+  "n_unconverged": 0,
+  "n_attempted": 20,
+  "ensemble": {
+    "planned": {
+      "oracle_strict": 20,
+      "oracle_nuisance": 20,
+      "unshared": 20,
+      "convergence": 4,
+      "primary": 20,
+      "realism": 20,
+      "noise_sd0.075": 6,
+      "noise_sd0.3": 6
+    },
+    "present": {
+      "oracle_strict": 20,
+      "oracle_nuisance": 20,
+      "unshared": 20,
+      "convergence": 4,
+      "primary": 20,
+      "realism": 20,
+      "noise_sd0.075": 6,
+      "noise_sd0.3": 6
+    },
+    "n_planned": 116,
+    "n_present": 116,
+    "missing_blocks": [],
+    "incomplete_blocks": []
+  },
+  "oracle_max_skill": 0.00015380263534556238,
+  "oracle_strict_true_D_is_zero": true,
+  "selector_on_fraction_median": 0.19923049024512257,
+  "selector_on_fraction_real": {
+    "A375": 0.4916,
+    "PANC1": 0.4635
+  },
+  "split_half_pearson_D_median": 0.9579226442688538,
+  "posterior_noise_fraction_median": 4.001125200212899,
+  "posterior_noise_fraction_real": {
+    "A375": 0.205,
+    "PANC1": 0.192
+  },
+  "null_D_std_median": 0.0225509226114205,
+  "real_D_std_mean": 0.19255665076574258,
+  "scale_ratio": 0.11711318472637505,
+  "criterion_D_reasons": [],
+  "skill": {
+    "0.40": {
+      "coverage": 0.4,
+      "n_null": 20,
+      "null_median": -0.0038570337057389006,
+      "null_min": -0.010512795201149644,
+      "null_max": -0.001587962025913922,
+      "null_q025": -0.009041369348532377,
+      "null_q975": -0.0018732904494952198,
+      "real_A375": 0.1966721144538791,
+      "real_PANC1": 0.1611487130656718,
+      "real_min": 0.1611487130656718,
+      "artifact_threshold": 0.0805743565328359,
+      "pct_A375": 100.0,
+      "pct_PANC1": 100.0,
+      "p_A375": 0.047619047619047616,
+      "p_PANC1": 0.047619047619047616,
+      "real_inside_null_95": false
+    },
+    "0.70": {
+      "coverage": 0.7,
+      "n_null": 20,
+      "null_median": -0.001917794943462843,
+      "null_min": -0.021425242881056406,
+      "null_max": 7.055353196407099e-05,
+      "null_q025": -0.013275105651855499,
+      "null_q975": 6.0450582525245806e-05,
+      "real_A375": 0.2499626442102741,
+      "real_PANC1": 0.2371834936733592,
+      "real_min": 0.2371834936733592,
+      "artifact_threshold": 0.1185917468366796,
+      "pct_A375": 100.0,
+      "pct_PANC1": 100.0,
+      "p_A375": 0.047619047619047616,
+      "p_PANC1": 0.047619047619047616,
+      "real_inside_null_95": false
+    }
+  },
+  "rank2_share_of_D": {
+    "null_median": 0.07059257935309575,
+    "real_mean": 0.17508698951975527,
+    "real_A375": 0.15712475453442412,
+    "real_PANC1": 0.19304922450508644,
+    "artifact_threshold": 0.08754349475987763,
+    "n_null": 20,
+    "null_mean": 0.07051115035896215,
+    "null_min": 0.06348287653206318,
+    "null_max": 0.079001796396613,
+    "null_q025": 0.06388659779045487,
+    "null_q975": 0.07830295950061834,
+    "percentile": 100.0,
+    "p_one_sided": 0.047619047619047616,
+    "real_minus_null_median": 0.10449441016665952,
+    "real_minus_null_median_over_sd": 23.213673777575956
+  },
+  "artifact_ceiling_from_real_data": {
+    "A375": {
+      "max_share_of_curl": 0.28699826740415385,
+      "max_share_of_D": 0.13252982719931802
+    },
+    "PANC1": {
+      "max_share_of_curl": 0.26598480233262417,
+      "max_share_of_D": 0.16005499045914495
+    }
+  },
+  "rank2_energy_absolute": {
+    "null_median": 3.540139179874771e-05,
+    "null_max": 4.252439480717094e-05,
+    "real_A375": 0.00772196978868864,
+    "real_PANC1": 0.0050348540165066225,
+    "null_median_over_real_A375": 0.004584502758687902,
+    "note": "reported, not a criterion: added while the ensemble ran and before any primary condition completed"
+  },
+  "top2_fraction_of_curl": {
+    "null_median": 0.09055506407601449,
+    "real_A375": 0.34025949682906353,
+    "real_PANC1": 0.3208157375983771,
+    "noise_floor": 0.0747
+  },
+  "criteria": {
+    "artifact_skill": false,
+    "artifact_spectral": false,
+    "real_inside_null_95": false,
+    "partial": false,
+    "little": true
+  },
+  "verdict": "LITTLE EVIDENCE FOR ESTIMATOR ARTIFACT"
+}

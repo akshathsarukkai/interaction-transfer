@@ -1,0 +1,32 @@
+{
+  "generated": "2026-08-25",
+  "generator": "scripts/prepare_phase3_targets.py",
+  "source": "https://www.ebi.ac.uk/chembl/api/data/mechanism (curated drug mechanism of action)",
+  "query_field": "parent_molecule_chembl_id",
+  "organism_filter": "Homo sapiens, or unset (non-protein targets such as DNA)",
+  "n_rows": 204,
+  "n_drugs_annotated": 97,
+  "n_targets": 76,
+  "n_targets_shared_by_2plus_drugs": 32,
+  "drugs_with_no_shared_target": [
+    "Arsenic Trioxide",
+    "Celecoxib",
+    "Crizotinib",
+    "Imiquimod",
+    "Megestrol acetate",
+    "Mitotane; o;p'-DDD",
+    "Pentostatin",
+    "Romidepsin",
+    "Tretinoin",
+    "Vismodegib",
+    "Vorinostat",
+    "Zoledronic Acid",
+    "abiraterone"
+  ],
+  "drugs_with_no_annotation": [
+    "Amifostine",
+    "Mitomycin C",
+    "Triethylenemelamine"
+  ],
+  "targets_sha256": "45a9564789eb89286b484e6f23b4b2b027b1efdb0df34d7db15dfbeb13dd26cd"
+}

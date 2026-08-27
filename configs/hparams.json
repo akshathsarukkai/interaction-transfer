@@ -1,0 +1,8 @@
+{
+  "_protocol": "Selected on DEV_SEEDS (100,101) by VALIDATION MSE only; REPORT_SEEDS never entered selection. Architecture chosen once and shared by all families; see results/README_RESULTS.md and results/featuremap_selection.jsonl.",
+  "_feature_map_evidence": "Paired over 15 complete (family,coverage,seed) cells at a budget identical across arms: concat 0.7486, concat_outer 0.6588, outer 0.6495. outer vs concat_outer p=0.73 (indistinguishable); outer vs concat p=0.069. Both product maps beat plain concatenation. The family ordering is unchanged between outer and concat_outer, so this choice does not drive the headline comparison.",
+  "additive":      {"emb_dim": 8, "pair_mode": "outer", "lr": 0.003, "emb_weight_decay": 0.01, "weight_decay": 0.001},
+  "unconstrained": {"emb_dim": 8, "pair_mode": "outer", "lr": 0.003, "emb_weight_decay": 0.01, "weight_decay": 0.001},
+  "shared_pair":   {"emb_dim": 8, "pair_mode": "outer", "lr": 0.003, "emb_weight_decay": 0.01, "weight_decay": 0.001},
+  "algebra":       {"emb_dim": 8, "pair_mode": "outer", "lr": 0.003, "emb_weight_decay": 0.01, "weight_decay": 0.001}
+}

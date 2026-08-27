@@ -1,0 +1,143 @@
+{
+  "source": {
+    "repo": "https://github.com/skoplev/d-chain",
+    "commit": "72b2445786daa13c3df41aa4b2312b84a7f79266",
+    "license": "GPL-3.0",
+    "files": {
+      "dchain.cpp": "a3f1def66ff00dcb6fa5f70848b9a77652d790ebda343efff7b24f5d036ebc91",
+      "README.md": "4a50d0c57e024dc17866f49496e590d0cb931660fd65299bbceac1f2d38e283f",
+      "post/interpretMCMC.R": "ab6f2cfab5de78161e1fdbf46696089b651c998bffba87bbbc6c01a1f960360d",
+      "data/viability_data.csv": "dec60c26989e788556857e514a1462590af22bad98d7a36b6b0b3a51ff5ac68c"
+    }
+  },
+  "patch": {
+    "hunks": [
+      "boost/includes",
+      "boost/namespaces",
+      "seed/field",
+      "seed/option",
+      "seed/echo",
+      "seed/use",
+      "sufstat/decl",
+      "sufstat/dummy",
+      "sufstat/fill"
+    ],
+    "sufficient_statistic_call_sites": 7,
+    "byte_equivalence_enforced_at_build": true
+  },
+  "deposit_identities": {
+    "A375": {
+      "n_samples": 1999,
+      "lambda_is_multiple_of_1_over_n": true,
+      "n_lambda_zero": 191,
+      "zero_lambda_implies_zero_synergy": true,
+      "abs_synergy_le_abs_lambda": true
+    },
+    "PANC1": {
+      "n_samples": 1999,
+      "lambda_is_multiple_of_1_over_n": true,
+      "n_lambda_zero": 173,
+      "zero_lambda_implies_zero_synergy": true,
+      "abs_synergy_le_abs_lambda": true
+    }
+  },
+  "paper_counts": {
+    "A375": {
+      "paper": {
+        "synergistic": 707,
+        "antagonistic": 1845
+      },
+      "reproduced": {
+        "synergistic": 707,
+        "antagonistic": 1845
+      },
+      "exact": true
+    },
+    "PANC1": {
+      "paper": {
+        "synergistic": 551,
+        "antagonistic": 1464
+      },
+      "reproduced": {
+        "synergistic": 551,
+        "antagonistic": 1464
+      },
+      "exact": true
+    }
+  },
+  "example_run": {
+    "source": "d-chain/data/viability_data.csv (66 rows, 2 drugs)",
+    "drugs": [
+      "Doxorubicin HCl",
+      "Erlotinib HCl"
+    ],
+    "mcmc": {
+      "n_samples": 1999,
+      "n_samples_expected": 1999,
+      "iterations": 100000,
+      "burn": 20000,
+      "subsample": 40,
+      "seed": 1,
+      "seconds": 0.5186767578125
+    },
+    "identities": {
+      "n_samples": 1999,
+      "lambda_is_multiple_of_1_over_n": true,
+      "n_lambda_zero": 0,
+      "zero_lambda_implies_zero_synergy": true,
+      "abs_synergy_le_abs_lambda": true
+    },
+    "identities_hold": true,
+    "synergy_mean": [
+      [
+        -0.05697692947000758,
+        0.007297717682201617
+      ],
+      [
+        -0.25981449993833716,
+        0.11990892664890684
+      ]
+    ],
+    "synergy_sd": [
+      [
+        0.1647680134014139,
+        0.022328932107176454
+      ],
+      [
+        0.089837756622813,
+        0.18974022152939443
+      ]
+    ],
+    "lambda_ab_mean": [
+      [
+        0.5117558779389695,
+        0.24462231115557778
+      ],
+      [
+        0.9779889944972486,
+        0.49674837418709356
+      ]
+    ],
+    "single_selector_mean": [
+      1.0,
+      0.12856428214107055
+    ],
+    "beta_residual_mean": [
+      0.7750547838919473,
+      1.1078537163581792
+    ],
+    "theta_mean": [
+      [
+        0.4527884607053527,
+        0.7764960635317657,
+        0.25572537888444175
+      ],
+      [
+        0.02392392169934949,
+        7.280710595297566,
+        0.4220246590845373
+      ]
+    ],
+    "directional_offdiag": 0.26711221762053877
+  }
+}

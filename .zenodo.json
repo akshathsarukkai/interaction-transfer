@@ -1,0 +1,49 @@
+{
+  "title": "Interaction Transfer to Unseen Scientific Entities",
+  "description": "<p>Research code and committed evidence for studying when pair-specific interaction effects transfer from observed combinations to unseen scientific entities.</p><p>The outcome of combining two entities is decomposed as <code>y(i,j) = f(i) + f(j) + I(i,j)</code>, and the project asks when the pair term <code>I</code> generalises across three regimes of increasing difficulty: an unseen combination of seen entities, a combination involving one entity never observed, and a combination in which neither entity was observed.</p><p>Evaluated on two external systems: the Koplev sequential anticancer drug screen, where the directional effect splits exactly into a generic ordering potential and a pair-specific cyclic component that is predictable for unseen pairs above a coverage threshold; and the ChemLex acid-amine coupling high-throughput screen, where the interaction is bipartite and the first detectable both-reactants-unseen result was obtained on a single-condition screen.</p><p>Includes a falsification study that runs the published estimator which produced the drug-screen target on simulated screens containing no pair-specific interaction, four pre-registered decision rules published verbatim, and an explicit record of the claims that were withdrawn. Two of the four registered rules returned INCONCLUSIVE; both the frozen verdicts and the corrected post-hoc readings are reported. This is a research artifact and has not been peer reviewed.</p>",
+  "creators": [
+    {
+      "name": "Sarukkai, Akshath"
+    }
+  ],
+  "upload_type": "software",
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": [
+    "scientific machine learning",
+    "molecular machine learning",
+    "drug combinations",
+    "reaction prediction",
+    "out-of-distribution generalization",
+    "compositional generalization",
+    "chemistry",
+    "machine learning"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.celrep.2017.08.095",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.17632/wgybvcvjwf.1",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.1038/s41467-025-59812-0",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.17596563",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "dataset"
+    }
+  ]
+}

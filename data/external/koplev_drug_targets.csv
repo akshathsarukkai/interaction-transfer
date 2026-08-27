@@ -1,0 +1,205 @@
+drug_index,label,parent_chembl_id,target_chembl_id,target_name,organism,mechanism_of_action,action_type
+0,Allopurinol,CHEMBL1467,CHEMBL1929,Xanthine dehydrogenase/oxidase,Homo sapiens,Xanthine dehydrogenase inhibitor,INHIBITOR
+0,Allopurinol,CHEMBL1467,CHEMBL1929,Xanthine dehydrogenase/oxidase,Homo sapiens,Xanthine dehydrogenase inhibitor,INHIBITOR
+1,Altretamine,CHEMBL1455,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+3,Aminolevulinic Acid,CHEMBL601,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+4,Anastrozole,CHEMBL1399,CHEMBL1978,Aromatase,Homo sapiens,Cytochrome P450 19A1 inhibitor,INHIBITOR
+5,Arsenic Trioxide,CHEMBL5483015,CHEMBL1927,"Thioredoxin reductase 1, cytoplasmic",Homo sapiens,Thioredoxin reductase 1 inhibitor,INHIBITOR
+6,Axitinib,CHEMBL1289926,CHEMBL2095227,Vascular endothelial growth factor receptor,Homo sapiens,Vascular endothelial growth factor receptor inhibitor,INHIBITOR
+7,Azacitidine,CHEMBL1489,CHEMBL1992,DNA (cytosine-5)-methyltransferase 3A,Homo sapiens,DNA (cytosine-5)-methyltransferase 3A inhibitor,INHIBITOR
+7,Azacitidine,CHEMBL1489,CHEMBL1993,DNA (cytosine-5)-methyltransferase 1,Homo sapiens,DNA (cytosine-5)-methyltransferase 1 inhibitor,INHIBITOR
+7,Azacitidine,CHEMBL1489,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+7,Azacitidine,CHEMBL1489,CHEMBL2311222,RNA,Homo sapiens,RNA inhibitor,INHIBITOR
+8,Bendamustine HCl,CHEMBL487253,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+9,Bleomycin,CHEMBL6067492,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+10,Bortezomib,CHEMBL325041,CHEMBL2364701,26S proteasome,Homo sapiens,26S proteasome inhibitor,INHIBITOR
+10,Bortezomib,CHEMBL325041,CHEMBL2364701,26S proteasome,Homo sapiens,26S proteasome inhibitor,INHIBITOR
+11,Busulfan,CHEMBL820,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+12,Cabazitaxel,CHEMBL1201748,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+13,Capecitabine,CHEMBL1773,CHEMBL1952,Thymidylate synthase,Homo sapiens,Thymidylate synthase inhibitor,INHIBITOR
+13,Capecitabine,CHEMBL1773,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+13,Capecitabine,CHEMBL1773,CHEMBL2311222,RNA,Homo sapiens,RNA inhibitor,INHIBITOR
+14,Carboplatin,CHEMBL1351,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+15,Carmustine,CHEMBL513,CHEMBL2755,"Glutathione reductase, mitochondrial",Homo sapiens,Glutathione reductase inhibitor,INHIBITOR
+15,Carmustine,CHEMBL513,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+15,Carmustine,CHEMBL513,CHEMBL2311222,RNA,Homo sapiens,RNA inhibitor,INHIBITOR
+16,Celecoxib,CHEMBL118,CHEMBL230,Prostaglandin G/H synthase 2,Homo sapiens,Cyclooxygenase-2 inhibitor,INHIBITOR
+17,Chlorambucil,CHEMBL515,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+18,Cisplatin,CHEMBL11359,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+19,Cladribine,CHEMBL1619,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+20,Clofarabine,CHEMBL1750,CHEMBL2095215,Ribonucleoside-diphosphate reductase RR1,Homo sapiens,Ribonucleoside-diphosphate reductase RR1 inhibitor,INHIBITOR
+20,Clofarabine,CHEMBL1750,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+20,Clofarabine,CHEMBL1750,CHEMBL2363042,DNA polymerase (alpha/delta/epsilon),Homo sapiens,DNA polymerase (alpha/delta/epsilon) inhibitor,INHIBITOR
+21,Crizotinib,CHEMBL601719,CHEMBL3717,Hepatocyte growth factor receptor,Homo sapiens,Hepatocyte growth factor receptor inhibitor,INHIBITOR
+21,Crizotinib,CHEMBL601719,CHEMBL4247,ALK tyrosine kinase receptor,Homo sapiens,ALK tyrosine kinase receptor inhibitor,INHIBITOR
+21,Crizotinib,CHEMBL601719,CHEMBL3883330,EML4-ALK,Homo sapiens,EML4-ALK inhibitor,INHIBITOR
+21,Crizotinib,CHEMBL601719,CHEMBL2111387,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor),Homo sapiens,NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor,INHIBITOR
+21,Crizotinib,CHEMBL601719,CHEMBL5568,Proto-oncogene tyrosine-protein kinase ROS,Homo sapiens,Proto-oncogene tyrosine-protein kinase ROS inhibitor,INHIBITOR
+21,Crizotinib,CHEMBL601719,CHEMBL2689,Macrophage-stimulating protein receptor,Homo sapiens,Macrophage-stimulating protein receptor inhibitor,INHIBITOR
+22,Cyclophosphamide,CHEMBL88,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+23,Cytarabine; Ara-C,CHEMBL803,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+23,Cytarabine; Ara-C,CHEMBL803,CHEMBL2311222,RNA,Homo sapiens,RNA inhibitor,INHIBITOR
+23,Cytarabine; Ara-C,CHEMBL803,CHEMBL2363042,DNA polymerase (alpha/delta/epsilon),Homo sapiens,DNA polymerase (alpha/delta/epsilon) inhibitor,INHIBITOR
+24,Dacarbazine,CHEMBL476,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+25,Dactinomycin,CHEMBL1554,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL1862,Tyrosine-protein kinase ABL1,Homo sapiens,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL1913,Platelet-derived growth factor receptor beta,Homo sapiens,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL1936,Mast/stem cell growth factor receptor Kit,Homo sapiens,Stem cell growth factor receptor inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL2068,Ephrin type-A receptor 2,Homo sapiens,Ephrin type-A receptor 2 inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL2363074,SRC,Homo sapiens,SRC inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL2096618,Bcr/Abl fusion protein,Homo sapiens,Bcr/Abl fusion protein inhibitor,INHIBITOR
+26,Dasatinib,CHEMBL1421,CHEMBL2096618,Bcr/Abl fusion protein,Homo sapiens,Bcr/Abl fusion protein inhibitor,INHIBITOR
+27,Daunorubicin HCl,CHEMBL178,CHEMBL1806,DNA topoisomerase 2-alpha,Homo sapiens,DNA topoisomerase II alpha inhibitor,INHIBITOR
+27,Daunorubicin HCl,CHEMBL178,CHEMBL1806,DNA topoisomerase 2-alpha,Homo sapiens,DNA topoisomerase II alpha inhibitor,INHIBITOR
+27,Daunorubicin HCl,CHEMBL178,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+27,Daunorubicin HCl,CHEMBL178,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+27,Daunorubicin HCl,CHEMBL178,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+27,Daunorubicin HCl,CHEMBL178,CHEMBL1806,DNA topoisomerase 2-alpha,Homo sapiens,DNA topoisomerase II alpha inhibitor,INHIBITOR
+28,Decitabine,CHEMBL1201129,CHEMBL1992,DNA (cytosine-5)-methyltransferase 3A,Homo sapiens,DNA (cytosine-5)-methyltransferase 3A inhibitor,INHIBITOR
+28,Decitabine,CHEMBL1201129,CHEMBL1993,DNA (cytosine-5)-methyltransferase 1,Homo sapiens,DNA (cytosine-5)-methyltransferase 1 inhibitor,INHIBITOR
+28,Decitabine,CHEMBL1201129,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+29,Dexrazoxane HCl,CHEMBL1738,CHEMBL2363058,Iron,,Iron sequestering agent,SEQUESTERING AGENT
+29,Dexrazoxane HCl,CHEMBL1738,CHEMBL2094255,DNA topoisomerase II,Homo sapiens,DNA topoisomerase II inhibitor,INHIBITOR
+29,Dexrazoxane HCl,CHEMBL1738,CHEMBL2094255,DNA topoisomerase II,Homo sapiens,DNA topoisomerase II inhibitor,INHIBITOR
+29,Dexrazoxane HCl,CHEMBL1738,CHEMBL2363058,Iron,,Iron chelating agent,CHELATING AGENT
+30,Docetaxel,CHEMBL92,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+30,Docetaxel,CHEMBL92,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin stabiliser,STABILISER
+31,Doxorubicin HCl,CHEMBL53463,CHEMBL1806,DNA topoisomerase 2-alpha,Homo sapiens,DNA topoisomerase II alpha inhibitor,INHIBITOR
+31,Doxorubicin HCl,CHEMBL53463,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+32,Erlotinib HCl,CHEMBL553,CHEMBL203,Epidermal growth factor receptor,Homo sapiens,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+33,Estramustine phosphate,CHEMBL1756,CHEMBL242,Estrogen receptor beta,Homo sapiens,Estrogen receptor beta modulator,MODULATOR
+33,Estramustine phosphate,CHEMBL1756,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+34,Etoposide,CHEMBL44657,CHEMBL2094255,DNA topoisomerase II,Homo sapiens,DNA topoisomerase II inhibitor,INHIBITOR
+35,Everolimus,CHEMBL1908360,CHEMBL1902,Peptidyl-prolyl cis-trans isomerase FKBP1A,Homo sapiens,FK506-binding protein 1A inhibitor,INHIBITOR
+36,Exemestane,CHEMBL1200374,CHEMBL1978,Aromatase,Homo sapiens,Cytochrome P450 19A1 inhibitor,INHIBITOR
+37,Floxuridine,CHEMBL917,CHEMBL1952,Thymidylate synthase,Homo sapiens,Thymidylate synthase inhibitor,INHIBITOR
+38,Fludarabine Phosphate,CHEMBL1096882,CHEMBL2095215,Ribonucleoside-diphosphate reductase RR1,Homo sapiens,Ribonucleoside-diphosphate reductase RR1 inhibitor,INHIBITOR
+38,Fludarabine Phosphate,CHEMBL1096882,CHEMBL2363042,DNA polymerase (alpha/delta/epsilon),Homo sapiens,DNA polymerase (alpha/delta/epsilon) inhibitor,INHIBITOR
+39,Fluorouracil (5-FU),CHEMBL185,CHEMBL1952,Thymidylate synthase,Homo sapiens,Thymidylate synthase inhibitor,INHIBITOR
+39,Fluorouracil (5-FU),CHEMBL185,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+39,Fluorouracil (5-FU),CHEMBL185,CHEMBL2311222,RNA,Homo sapiens,RNA inhibitor,INHIBITOR
+40,Fulvestrant,CHEMBL1358,CHEMBL206,Estrogen receptor,Homo sapiens,Estrogen receptor alpha antagonist,ANTAGONIST
+40,Fulvestrant,CHEMBL1358,CHEMBL206,Estrogen receptor,Homo sapiens,Estrogen receptor degrader,DEGRADER
+41,Gefitinib,CHEMBL939,CHEMBL203,Epidermal growth factor receptor,Homo sapiens,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+42,Gemcitabine HCl,CHEMBL888,CHEMBL2095215,Ribonucleoside-diphosphate reductase RR1,Homo sapiens,Ribonucleoside-diphosphate reductase RR1 inhibitor,INHIBITOR
+42,Gemcitabine HCl,CHEMBL888,CHEMBL2363042,DNA polymerase (alpha/delta/epsilon),Homo sapiens,DNA polymerase (alpha/delta/epsilon) inhibitor,INHIBITOR
+43,Hydroxyurea,CHEMBL467,CHEMBL2095215,Ribonucleoside-diphosphate reductase RR1,Homo sapiens,Ribonucleoside-diphosphate reductase RR1 inhibitor,INHIBITOR
+44,Ifosfamide,CHEMBL1024,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+45,Imatinib Mesylate,CHEMBL941,CHEMBL1862,Tyrosine-protein kinase ABL1,Homo sapiens,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+45,Imatinib Mesylate,CHEMBL941,CHEMBL1913,Platelet-derived growth factor receptor beta,Homo sapiens,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+45,Imatinib Mesylate,CHEMBL941,CHEMBL1936,Mast/stem cell growth factor receptor Kit,Homo sapiens,Stem cell growth factor receptor inhibitor,INHIBITOR
+45,Imatinib Mesylate,CHEMBL941,CHEMBL2096618,Bcr/Abl fusion protein,Homo sapiens,Bcr/Abl fusion protein inhibitor,INHIBITOR
+46,Imiquimod,CHEMBL1282,CHEMBL5936,Toll-like receptor 7,Homo sapiens,Toll-like receptor 7 agonist,AGONIST
+47,Irinotecan HCl,CHEMBL481,CHEMBL1781,DNA topoisomerase 1,Homo sapiens,DNA topoisomerase I inhibitor,INHIBITOR
+48,Ixabepilone,CHEMBL1201752,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+49,Lapatinib Ditosylate,CHEMBL554,CHEMBL1824,Receptor tyrosine-protein kinase erbB-2,Homo sapiens,Receptor protein-tyrosine kinase erbB-2 inhibitor,INHIBITOR
+49,Lapatinib Ditosylate,CHEMBL554,CHEMBL203,Epidermal growth factor receptor,Homo sapiens,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+50,Lenalidomide,CHEMBL848,CHEMBL3833061,CRL4(CRBN) E3 ubiquitin ligase,Homo sapiens,CRL4(CRBN) E3 ubiquitin ligase inhibitor,INHIBITOR
+50,Lenalidomide,CHEMBL848,CHEMBL3833061,CRL4(CRBN) E3 ubiquitin ligase,Homo sapiens,CRL4(CRBN) E3 ubiquitin ligase modulator,MODULATOR
+51,Letrozole,CHEMBL1444,CHEMBL1978,Aromatase,Homo sapiens,Cytochrome P450 19A1 inhibitor,INHIBITOR
+52,Lomustine; CCNU,CHEMBL514,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+53,Mechlorethamine HCl,CHEMBL427,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+53,Mechlorethamine HCl,CHEMBL427,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+54,Megestrol acetate,CHEMBL1201139,CHEMBL208,Progesterone receptor,Homo sapiens,Progesterone receptor agonist,AGONIST
+55,Melphalan,CHEMBL852,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+55,Melphalan,CHEMBL852,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+56,Mercaptopurine,CHEMBL1425,CHEMBL2362992,Amidophosphoribosyltransferase,Homo sapiens,Amidophosphoribosyltransferase inhibitor,INHIBITOR
+56,Mercaptopurine,CHEMBL1425,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+57,Methotrexate,CHEMBL34259,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+57,Methotrexate,CHEMBL34259,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+58,Methoxsalen,CHEMBL416,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+60,Mitotane; o;p'-DDD,CHEMBL1670,CHEMBL2033,"Cholesterol side-chain cleavage enzyme, mitochondrial",Homo sapiens,Cytochrome P450 11A1 inhibitor,INHIBITOR
+60,Mitotane; o;p'-DDD,CHEMBL1670,CHEMBL1908,"Cytochrome P450 11B1, mitochondrial",Homo sapiens,Cytochrome P450 11B1 inhibitor,INHIBITOR
+61,Mitoxantrone HCl,CHEMBL58,CHEMBL1806,DNA topoisomerase 2-alpha,Homo sapiens,DNA topoisomerase II alpha inhibitor,INHIBITOR
+61,Mitoxantrone HCl,CHEMBL58,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+62,Nelarabine,CHEMBL1201112,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+63,Nilotinib,CHEMBL255863,CHEMBL1862,Tyrosine-protein kinase ABL1,Homo sapiens,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+63,Nilotinib,CHEMBL255863,CHEMBL2096618,Bcr/Abl fusion protein,Homo sapiens,Bcr/Abl fusion protein inhibitor,INHIBITOR
+64,Oxaliplatin,CHEMBL414804,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+65,Paclitaxel,CHEMBL428647,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL1844,Macrophage colony-stimulating factor 1 receptor,Homo sapiens,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL1936,Mast/stem cell growth factor receptor Kit,Homo sapiens,Stem cell growth factor receptor inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL258,Tyrosine-protein kinase Lck,Homo sapiens,Tyrosine-protein kinase LCK inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL2742,Fibroblast growth factor receptor 3,Homo sapiens,Fibroblast growth factor receptor 3 inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL3650,Fibroblast growth factor receptor 1,Homo sapiens,Fibroblast growth factor receptor 1 inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL2095189,Platelet-derived growth factor receptor,Homo sapiens,Platelet-derived growth factor receptor inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL2095227,Vascular endothelial growth factor receptor,Homo sapiens,Vascular endothelial growth factor receptor inhibitor,INHIBITOR
+66,Pazopanib HCl,CHEMBL477772,CHEMBL2959,Tyrosine-protein kinase ITK/TSK,Homo sapiens,Tyrosine-protein kinase ITK/TSK inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL1952,Thymidylate synthase,Homo sapiens,Thymidylate synthase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL3972,Trifunctional purine biosynthetic protein adenosine-3,Homo sapiens,GAR transformylase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL3972,Trifunctional purine biosynthetic protein adenosine-3,Homo sapiens,GAR transformylase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL1952,Thymidylate synthase,Homo sapiens,Thymidylate synthase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL3972,Trifunctional purine biosynthetic protein adenosine-3,Homo sapiens,GAR transformylase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL3972,Trifunctional purine biosynthetic protein adenosine-3,Homo sapiens,GAR transformylase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL1952,Thymidylate synthase,Homo sapiens,Thymidylate synthase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL3972,Trifunctional purine biosynthetic protein adenosine-3,Homo sapiens,GAR transformylase inhibitor,INHIBITOR
+67,Pemetrexed Disodium,CHEMBL225072,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+68,Pentostatin,CHEMBL1580,CHEMBL1910,Adenosine deaminase,Homo sapiens,Adenosine deaminase inhibitor,INHIBITOR
+69,Pipobroman,CHEMBL1585,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+70,Plicamycin,CHEMBL1237054,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+71,Pralatrexate,CHEMBL1201746,CHEMBL202,Dihydrofolate reductase,Homo sapiens,Dihydrofolate reductase inhibitor,INHIBITOR
+72,Procarbazine HCl,CHEMBL1321,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+73,Raloxifene HCl,CHEMBL81,CHEMBL242,Estrogen receptor beta,Homo sapiens,Estrogen receptor beta modulator,MODULATOR
+73,Raloxifene HCl,CHEMBL81,CHEMBL206,Estrogen receptor,Homo sapiens,Estrogen receptor modulator,MODULATOR
+74,Romidepsin,CHEMBL343448,CHEMBL2093865,Histone deacetylase,Homo sapiens,Histone deacetylase inhibitor,INHIBITOR
+75,Sirolimus (Rapamycin),CHEMBL413,CHEMBL1902,Peptidyl-prolyl cis-trans isomerase FKBP1A,Homo sapiens,FK506-binding protein 1A inhibitor,INHIBITOR
+76,Streptozocin,CHEMBL1977579,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1844,Macrophage colony-stimulating factor 1 receptor,Homo sapiens,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1936,Mast/stem cell growth factor receptor Kit,Homo sapiens,Stem cell growth factor receptor inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,Homo sapiens,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL2095189,Platelet-derived growth factor receptor,Homo sapiens,Platelet-derived growth factor receptor inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL2095227,Vascular endothelial growth factor receptor,Homo sapiens,Vascular endothelial growth factor receptor inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,Homo sapiens,Tyrosine-protein kinase receptor RET inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1844,Macrophage colony-stimulating factor 1 receptor,Homo sapiens,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL279,Vascular endothelial growth factor receptor 2,Homo sapiens,Vascular endothelial growth factor receptor 2 inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1936,Mast/stem cell growth factor receptor Kit,Homo sapiens,Stem cell growth factor receptor inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1913,Platelet-derived growth factor receptor beta,Homo sapiens,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL2007,Platelet-derived growth factor receptor alpha,Homo sapiens,Platelet-derived growth factor receptor alpha inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1868,Vascular endothelial growth factor receptor 1,Homo sapiens,Vascular endothelial growth factor receptor 1 inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1955,Vascular endothelial growth factor receptor 3,Homo sapiens,Vascular endothelial growth factor receptor 3 inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,Homo sapiens,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR
+77,Sunitinib Malate,CHEMBL535,CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,Homo sapiens,Tyrosine-protein kinase receptor RET inhibitor,INHIBITOR
+78,Tamoxifen Citrate,CHEMBL83,CHEMBL206,Estrogen receptor,Homo sapiens,Estrogen receptor alpha modulator,MODULATOR
+79,Temozolomide,CHEMBL810,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+80,Teniposide,CHEMBL452231,CHEMBL2094255,DNA topoisomerase II,Homo sapiens,DNA topoisomerase II inhibitor,INHIBITOR
+81,Thalidomide,CHEMBL468,CHEMBL3833061,CRL4(CRBN) E3 ubiquitin ligase,Homo sapiens,CRL4(CRBN) E3 ubiquitin ligase inhibitor,INHIBITOR
+82,Thioguanine,CHEMBL727,CHEMBL2111369,Inosine-5'-monophosphate dehydrogenase (IMPDH),Homo sapiens,Inosine-5'-monophosphate dehydrogenase (IMPDH) inhibitor,INHIBITOR
+82,Thioguanine,CHEMBL727,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+83,Thiotepa,CHEMBL671,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+84,Topotecan HCl,CHEMBL84,CHEMBL1781,DNA topoisomerase 1,Homo sapiens,DNA topoisomerase I inhibitor,INHIBITOR
+85,Tretinoin,CHEMBL38,CHEMBL2363069,Retinoic acid receptor,Homo sapiens,Retinoic acid receptor agonist,AGONIST
+87,Uracil mustard,CHEMBL1488,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+88,Vemurafenib,CHEMBL1229517,CHEMBL5145,Serine/threonine-protein kinase B-raf,Homo sapiens,Serine/threonine-protein kinase B-raf inhibitor,INHIBITOR
+89,Vinblastine Sulfate,CHEMBL159,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+90,Vincristine Sulfate,CHEMBL90555,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+91,Vinorelbine Tartrate,CHEMBL553025,CHEMBL2095182,Tubulin,Homo sapiens,Tubulin inhibitor,INHIBITOR
+92,Vismodegib,CHEMBL473417,CHEMBL5971,Protein smoothened,Homo sapiens,Smoothened homolog inhibitor,INHIBITOR
+93,Vorinostat,CHEMBL98,CHEMBL325,Histone deacetylase 1,Homo sapiens,Histone deacetylase 1 inhibitor,INHIBITOR
+93,Vorinostat,CHEMBL98,CHEMBL1829,Histone deacetylase 3,Homo sapiens,Histone deacetylase 3 inhibitor,INHIBITOR
+93,Vorinostat,CHEMBL98,CHEMBL1865,Protein deacetylase HDAC6,Homo sapiens,Histone deacetylase 6 inhibitor,INHIBITOR
+93,Vorinostat,CHEMBL98,CHEMBL1937,Histone deacetylase 2,Homo sapiens,Histone deacetylase 2 inhibitor,INHIBITOR
+94,Zoledronic Acid,CHEMBL924,CHEMBL1782,Farnesyl pyrophosphate synthase,Homo sapiens,Farnesyl diphosphate synthase inhibitor,INHIBITOR
+95,abiraterone,CHEMBL254328,CHEMBL3522,"Steroid 17-alpha-hydroxylase/17,20 lyase",Homo sapiens,Cytochrome P450 17A1 inhibitor,INHIBITOR
+95,abiraterone,CHEMBL254328,CHEMBL1871,Androgen receptor,Homo sapiens,Androgen Receptor antagonist,ANTAGONIST
+95,abiraterone,CHEMBL254328,CHEMBL2363075,Steroid 5-alpha-reductase,Homo sapiens,Steroid 5-alpha-reductase inhibitor,INHIBITOR
+96,carfilzomib,CHEMBL451887,CHEMBL2364701,26S proteasome,Homo sapiens,26S proteasome inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL1906,RAF proto-oncogene serine/threonine-protein kinase,Homo sapiens,Serine/threonine-protein kinase RAF inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL1913,Platelet-derived growth factor receptor beta,Homo sapiens,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL1936,Mast/stem cell growth factor receptor Kit,Homo sapiens,Stem cell growth factor receptor inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL1974,Receptor-type tyrosine-protein kinase FLT3,Homo sapiens,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL5145,Serine/threonine-protein kinase B-raf,Homo sapiens,Serine/threonine-protein kinase B-raf inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL2095227,Vascular endothelial growth factor receptor,Homo sapiens,Vascular endothelial growth factor receptor inhibitor,INHIBITOR
+97,sorafenib,CHEMBL1336,CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,Homo sapiens,Tyrosine-protein kinase receptor RET inhibitor,INHIBITOR
+98,valrubicin,CHEMBL1096885,CHEMBL1806,DNA topoisomerase 2-alpha,Homo sapiens,DNA topoisomerase II alpha inhibitor,INHIBITOR
+98,valrubicin,CHEMBL1096885,CHEMBL2311221,DNA,Homo sapiens,DNA inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL267,Proto-oncogene tyrosine-protein kinase Src,Homo sapiens,Tyrosine-protein kinase SRC inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL4601,Protein-tyrosine kinase 6,Homo sapiens,Tyrosine-protein kinase BRK inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL4128,Angiopoietin-1 receptor,Homo sapiens,Tyrosine-protein kinase TIE-2 inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL2095227,Vascular endothelial growth factor receptor,Homo sapiens,Vascular endothelial growth factor receptor inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL2041,Proto-oncogene tyrosine-protein kinase receptor Ret,Homo sapiens,Tyrosine-protein kinase receptor RET inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL2363043,Ephrin receptor,Homo sapiens,Ephrin receptor inhibitor,INHIBITOR
+99,vandetanib,CHEMBL24828,CHEMBL2363049,Epidermal growth factor receptor,Homo sapiens,Epidermal growth factor receptor inhibitor,INHIBITOR

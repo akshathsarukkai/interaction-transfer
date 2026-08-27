@@ -1,0 +1,121 @@
+{
+  "verdict": "INCONCLUSIVE",
+  "criteria": {
+    "potential_beats_zero": true,
+    "a_both_positive": true,
+    "b_incremental_above_floor": true,
+    "c_both_tests_significant": true,
+    "d_folds_favouring": true,
+    "e_pearson_positive": true,
+    "f_controls_collapse": false,
+    "g_not_analogue_confined": true
+  },
+  "_per_screen_pot_low": [
+    false,
+    false
+  ],
+  "_per_screen_incr_fails": [
+    false,
+    false
+  ],
+  "invalidating_reasons": [
+    "the random representation posts mean E1 skill +0.204 > 0.05, so something is leaking",
+    "the shuffled representation posts mean E1 skill +0.118 > 0.05, so something is leaking"
+  ],
+  "n_attempted": 690,
+  "n_failed": 0,
+  "positive_control_incremental": 0.3556116592354025,
+  "controls": {
+    "random": {
+      "present": true,
+      "n_folds": 20,
+      "mean": 0.20409355620508066,
+      "max": 0.33518051834546403,
+      "A375": 0.23010104129991044,
+      "PANC1": 0.17808607111025088
+    },
+    "shuffled": {
+      "present": true,
+      "n_folds": 20,
+      "mean": 0.11800816488510468,
+      "max": 0.32571349105938807,
+      "A375": 0.156978960449641,
+      "PANC1": 0.07903736932056842
+    }
+  },
+  "per_screen": {
+    "A375": {
+      "potential_skill": 0.193079168282499,
+      "lowrank_skill": 0.21692557191223474,
+      "lowrank_pearson": 0.49080664577004474,
+      "incremental": {
+        "n": 30,
+        "mean": 0.027340895108275795,
+        "sd": 0.056890079405492934,
+        "n_positive": 23,
+        "ci_lo": 0.006097790337609127,
+        "ci_hi": 0.04858399987894246,
+        "p_ttest": 0.013449652021331991,
+        "p_wilcoxon": 0.003475155681371689
+      }
+    },
+    "PANC1": {
+      "potential_skill": 0.14136442783180136,
+      "lowrank_skill": 0.18546917179185035,
+      "lowrank_pearson": 0.44770421955855944,
+      "incremental": {
+        "n": 30,
+        "mean": 0.05361318709661738,
+        "sd": 0.07172514183135613,
+        "n_positive": 25,
+        "ci_lo": 0.026830578976943888,
+        "ci_hi": 0.08039579521629087,
+        "p_ttest": 0.00030965812329139503,
+        "p_wilcoxon": 0.0001528710126876831
+      }
+    }
+  },
+  "stratified_low_similarity": [
+    {
+      "screen": "A375",
+      "stratum": "low",
+      "n_drugs": 40,
+      "incremental_skill": 0.01595470369087988,
+      "sd": 0.06494636879627065,
+      "ci_lo": -0.0048161527250903564,
+      "ci_hi": 0.036725560106850116,
+      "n_positive": 25,
+      "skill_base": 0.1350380183218475,
+      "skill_better": 0.14178350314446864,
+      "max_sim_lo": 0.0,
+      "max_sim_hi": 0.22891963109354416
+    },
+    {
+      "screen": "PANC1",
+      "stratum": "low",
+      "n_drugs": 40,
+      "incremental_skill": 0.014578475017290699,
+      "sd": 0.07324045392338073,
+      "ci_lo": -0.008844958509148107,
+      "ci_hi": 0.03800190854372951,
+      "n_positive": 24,
+      "skill_base": 0.09389360963159178,
+      "skill_better": 0.11058383493507207,
+      "max_sim_lo": 0.0,
+      "max_sim_hi": 0.22891963109354416
+    }
+  ],
+  "thresholds": {
+    "potential_beats_zero": 0.02,
+    "min_incremental_skill": 0.01,
+    "alpha": 0.05,
+    "min_folds_favouring": 20,
+    "n_folds": 30,
+    "control_ceiling": 0.02,
+    "control_invalidates_above": 0.05,
+    "positive_control_floor": 0.05,
+    "max_failure_fraction": 0.1,
+    "sim_q33": 0.234,
+    "sim_q66": 0.5161
+  }
+}

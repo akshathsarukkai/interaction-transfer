@@ -1,0 +1,27 @@
+# Git must not rewrite line endings anywhere in this repository, and on three
+# files in particular it would be a reproducibility bug rather than a nuisance.
+#
+# `data/external/koplev_drug_mapping.csv` and `koplev_drug_targets.csv` are
+# written by Python's `csv` module, which terminates lines with CRLF, and both
+# are pinned by a SHA-256 recorded in `data/external/PROVENANCE_PHASE3*.json`.
+# A checkout that normalised them to LF would produce a file whose digest no
+# longer matches its own provenance record -- silently, on someone else's
+# machine, in the one direction a provenance digest exists to catch.
+# `tests/fixtures/koplev_tiny/drug_mapping.csv` is regenerated and byte-diffed
+# by CI for the same reason.
+#
+# So: no automatic conversion, on anything.
+* -text
+
+# ...and `git diff --check` must stop reporting the CR of those CRLF line
+# endings as trailing whitespace. It is not a typo to clean up; it is the byte
+# the digest was taken over.
+*.csv whitespace=-trailing-space
+
+# Committed evidence. Diffing a 24 MB JSONL helps nobody, and GitHub should not
+# try to render one.
+*.jsonl -diff linguist-generated
+results/**/*.csv -diff linguist-generated
+
+# Generated documents are evidence too, but they are meant to be read.
+docs/*.md linguist-documentation

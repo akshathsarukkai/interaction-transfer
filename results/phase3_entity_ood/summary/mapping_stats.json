@@ -1,0 +1,143 @@
+{
+  "n_drugs": 100,
+  "n_unique_connectivity": 100,
+  "n_unique_full_key": 100,
+  "inchikey_recomputed_matches": 100,
+  "n_name_hits_all_unique": 100,
+  "n_label_exact_synonym": 100,
+  "n_desalted": 21,
+  "min_fragment_ratio_observed": 2.15,
+  "n_metal": 4,
+  "n_overridden": 3,
+  "overridden": [
+    "Carboplatin",
+    "Pentostatin",
+    "Vincristine Sulfate"
+  ],
+  "flag_census": {
+    "caveat:metal-complex-kept-whole": 4,
+    "check:pubchem-chembl-disagree": 3,
+    "check:no-chembl-structure": 4,
+    "audited:structure-overridden": 3,
+    "check:chembl-name-not-found": 1
+  },
+  "bits_min": 2,
+  "bits_median": 44.5,
+  "bits_mean": 47.4,
+  "bits_max": 139,
+  "lowest_bits": [
+    [
+      2,
+      "Arsenic Trioxide"
+    ],
+    [
+      5,
+      "Cisplatin"
+    ],
+    [
+      10,
+      "Hydroxyurea"
+    ],
+    [
+      11,
+      "Altretamine"
+    ],
+    [
+      11,
+      "Thiotepa"
+    ],
+    [
+      12,
+      "Mechlorethamine HCl"
+    ],
+    [
+      12,
+      "Triethylenemelamine"
+    ],
+    [
+      15,
+      "Busulfan"
+    ]
+  ],
+  "n_identical_fingerprints": 0,
+  "tanimoto_median": 0.0769,
+  "tanimoto_p95": 0.1601,
+  "tanimoto_max": 0.8835,
+  "n_pairs_ge_0.7": 8,
+  "n_pairs_ge_0.9": 0,
+  "n_pairs_exactly_zero": 246,
+  "pairs_ge_0.7": [
+    [
+      0.8835,
+      "Vinblastine Sulfate",
+      "Vincristine Sulfate"
+    ],
+    [
+      0.8727,
+      "Everolimus",
+      "Sirolimus (Rapamycin)"
+    ],
+    [
+      0.8533,
+      "Daunorubicin HCl",
+      "Doxorubicin HCl"
+    ],
+    [
+      0.7921,
+      "Cabazitaxel",
+      "Docetaxel"
+    ],
+    [
+      0.7677,
+      "Docetaxel",
+      "Paclitaxel"
+    ],
+    [
+      0.7531,
+      "Etoposide",
+      "Teniposide"
+    ],
+    [
+      0.7387,
+      "Vinblastine Sulfate",
+      "Vinorelbine Tartrate"
+    ],
+    [
+      0.7115,
+      "Cabazitaxel",
+      "Paclitaxel"
+    ]
+  ],
+  "maxsim_min": 0.0,
+  "maxsim_median": 0.2899,
+  "maxsim_max": 0.8835,
+  "n_drugs_maxsim_ge_0.7": 12,
+  "n_drugs_maxsim_ge_0.9": 0,
+  "maxsim_q33_current": 0.2222,
+  "maxsim_q66_current": 0.5161,
+  "targets": {
+    "n_rows": 204,
+    "n_drugs_annotated": 97,
+    "n_targets": 76,
+    "n_targets_shared": 32,
+    "n_drugs_uninformative": 16,
+    "uninformative": [
+      "Amifostine",
+      "Arsenic Trioxide",
+      "Celecoxib",
+      "Crizotinib",
+      "Imiquimod",
+      "Megestrol acetate",
+      "Mitomycin C",
+      "Mitotane; o;p'-DDD",
+      "Pentostatin",
+      "Romidepsin",
+      "Tretinoin",
+      "Triethylenemelamine",
+      "Vismodegib",
+      "Vorinostat",
+      "Zoledronic Acid",
+      "abiraterone"
+    ]
+  }
+}

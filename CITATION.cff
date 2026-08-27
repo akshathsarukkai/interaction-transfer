@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: Interaction Transfer to Unseen Scientific Entities
+message: >-
+  If you use this software or its results, please cite it using the
+  metadata below. Please also cite the underlying datasets, which have
+  their own authors and licences and are listed in THIRD_PARTY_DATA.md.
+type: software
+authors:
+  - family-names: Sarukkai
+    given-names: Akshath
+repository-code: https://github.com/akshathsarukkai/interaction-transfer
+url: https://github.com/akshathsarukkai/interaction-transfer
+abstract: >-
+  Research code and committed evidence for studying when pair-specific
+  interaction effects transfer from observed combinations to unseen
+  scientific entities. The outcome of combining two entities is
+  decomposed as y(i,j) = f(i) + f(j) + I(i,j), and the project asks when
+  the pair term I generalises across three regimes of increasing
+  difficulty: an unseen combination of seen entities, a combination
+  involving one entity never observed, and a combination in which
+  neither entity was observed. Evaluated on two external systems - the
+  Koplev sequential anticancer drug screen, where the directional effect
+  splits exactly into a generic ordering potential and a pair-specific
+  cyclic component, and the ChemLex acid-amine coupling high-throughput
+  screen, where the interaction is bipartite. Includes a falsification
+  study against the estimator that produced the drug-screen target, four
+  pre-registered decision rules published verbatim, and an explicit
+  record of the claims that were withdrawn.
+keywords:
+  - scientific-machine-learning
+  - molecular-machine-learning
+  - drug-combinations
+  - reaction-prediction
+  - out-of-distribution
+  - compositional-generalization
+  - chemistry
+  - machine-learning
+license: Apache-2.0
+version: 1.0.0
+date-released: '2026-08-27'

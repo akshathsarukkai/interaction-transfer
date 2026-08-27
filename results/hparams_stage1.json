@@ -1,0 +1,42 @@
+{
+  "additive": {
+    "emb_dim": 8,
+    "pair_mode": "concat",
+    "emb_weight_decay": 0.03,
+    "weight_decay": 0.001,
+    "lr": 0.003,
+    "_mean_val_mse": 0.826870784163475,
+    "_grid_id": 2,
+    "_n_runs": 4
+  },
+  "unconstrained": {
+    "emb_dim": 8,
+    "pair_mode": "concat_outer",
+    "emb_weight_decay": 0.01,
+    "weight_decay": 0.001,
+    "lr": 0.003,
+    "_mean_val_mse": 0.6040516868233681,
+    "_grid_id": 4,
+    "_n_runs": 4
+  },
+  "shared_pair": {
+    "emb_dim": 8,
+    "pair_mode": "concat_outer",
+    "emb_weight_decay": 0.01,
+    "weight_decay": 0.001,
+    "lr": 0.003,
+    "_mean_val_mse": 0.5384069755673409,
+    "_grid_id": 4,
+    "_n_runs": 4
+  },
+  "algebra": {
+    "emb_dim": 8,
+    "pair_mode": "concat_outer",
+    "emb_weight_decay": 0.01,
+    "weight_decay": 0.001,
+    "lr": 0.003,
+    "_mean_val_mse": 0.6206094771623611,
+    "_grid_id": 4,
+    "_n_runs": 4
+  }
+}

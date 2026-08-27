@@ -1,0 +1,3544 @@
+{
+  "test_mse": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.022080270736210456,
+      "std": 0.0019287841432157787,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.026741349429628844,
+      "std": 0.0026144981234090025,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.02304099151567691,
+      "std": 0.001987633890847733,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.0230346211275551,
+      "std": 0.0017240952826958916,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.019891720996887022,
+      "std": 0.0015049515497816144,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.02227594348904096,
+      "std": 0.0011866679514666702,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.01611455945837791,
+      "std": 0.0013376383635948627,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.015890288833376388,
+      "std": 0.0013736545509435054,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.01897554181089044,
+      "std": 0.0013643815534739954,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.018788392711092297,
+      "std": 0.0009875145531710934,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.01152832432680394,
+      "std": 0.0007568853413403936,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.011186227467700094,
+      "std": 0.0007847447466900814,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.01825491437419578,
+      "std": 0.0010831765449856806,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.017981918010086823,
+      "std": 0.0009154000200859097,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.008349663445297884,
+      "std": 0.0006751495208486767,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.008405135110847076,
+      "std": 0.000735981253846693,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.01801722478701758,
+      "std": 0.0011419042684866632,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.017715369812970953,
+      "std": 0.0010937474656632082,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.007894223410878011,
+      "std": 0.0005774002710312675,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.0069801647455307175,
+      "std": 0.000622566546656695,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.013267870045832731,
+      "std": 0.0013187821793297276,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.01570084468189388,
+      "std": 0.0019638069701938374,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.01525175483234941,
+      "std": 0.0019763897321352516,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.014989371150889476,
+      "std": 0.0018539304953314806,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.012101389297881977,
+      "std": 0.0014152453261785038,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.014228717056037267,
+      "std": 0.0012187353228634119,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.012842808059726957,
+      "std": 0.0012986861407466575,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.012620818511734019,
+      "std": 0.00164083904400362,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.011465605764545146,
+      "std": 0.0012563391644176164,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.010927434717715906,
+      "std": 0.001001437165264489,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.008551017524458786,
+      "std": 0.000811737249104337,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.00830744729286351,
+      "std": 0.0008919176698178278,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.010994493870651248,
+      "std": 0.001189167861245466,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.01216836322956133,
+      "std": 0.0016945181130621088,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.005609152244684716,
+      "std": 0.0005023171348636997,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.00570009817949596,
+      "std": 0.0006286725782204883,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.010816080083113251,
+      "std": 0.0011690274419252635,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.013006524139854356,
+      "std": 0.0013508308356066738,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.0049622663467695895,
+      "std": 0.0003823901582656987,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.0043172962281747915,
+      "std": 0.00045646778999833764,
+      "count": 8
+    }
+  ],
+  "test_mae": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.10475945125653953,
+      "std": 0.006448510073428463,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.11455525312313677,
+      "std": 0.005249083308806969,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.10846071034885992,
+      "std": 0.00450631014934198,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.10827373924180976,
+      "std": 0.004095743991805788,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.09839152033702542,
+      "std": 0.005383719758953143,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.10299933059984162,
+      "std": 0.0034003949368810295,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.09007361643208038,
+      "std": 0.0047939800502262405,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.08913811786797257,
+      "std": 0.004204727032292589,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.09403256357107061,
+      "std": 0.004406261562350518,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.09424880358409002,
+      "std": 0.0035321829757353593,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.07477983862071985,
+      "std": 0.0022992000916796894,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.07373731555392253,
+      "std": 0.002931929516279315,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.0918944167282686,
+      "std": 0.003631804548906118,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.09185358703405112,
+      "std": 0.0031047939784030537,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.06331575266798432,
+      "std": 0.002362405822285891,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.06320862297474078,
+      "std": 0.0023552433877912695,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.09109211202963935,
+      "std": 0.0037417142707719,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.09109107532098032,
+      "std": 0.0032552856610700716,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.061129872235712424,
+      "std": 0.0019584600315570764,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.05664446370688063,
+      "std": 0.0020175297023219785,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.08104964888122561,
+      "std": 0.006787409956326732,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0858301106825011,
+      "std": 0.007156778156725812,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.08599820371119225,
+      "std": 0.009755152677434872,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.08753686722547913,
+      "std": 0.006219167377337974,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.07672559230362459,
+      "std": 0.004538229803333491,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.08285324575853062,
+      "std": 0.0034196039781069706,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.0820253982131304,
+      "std": 0.0040887727988812355,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.08077536626994164,
+      "std": 0.005593401259219124,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.07362777838704153,
+      "std": 0.004133596214831823,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.07247211043418746,
+      "std": 0.0032600257783084764,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.0661188682991368,
+      "std": 0.0030280870739168063,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.0647986858598602,
+      "std": 0.0034860231418453232,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.07207225445441753,
+      "std": 0.0038262395751259125,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.07416778767733971,
+      "std": 0.004491549387618155,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.053210864893524355,
+      "std": 0.001833269029751596,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.05330671954782634,
+      "std": 0.002016070405146628,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.07166129809958817,
+      "std": 0.003766008847744758,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.076504930729558,
+      "std": 0.004190519383429962,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.04964311109576132,
+      "std": 0.0012603921746294762,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.04614676918932206,
+      "std": 0.0018880723169071999,
+      "count": 8
+    }
+  ],
+  "test_r2": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.3436843651056466,
+      "std": 0.03929926668159462,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.20423694675303256,
+      "std": 0.06920207660032872,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.31071509389274843,
+      "std": 0.09182396410683888,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.3124786474519654,
+      "std": 0.07284418218412214,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.40894621040007983,
+      "std": 0.01911340532722447,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.336634308719622,
+      "std": 0.03699770336125993,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.5198119273719669,
+      "std": 0.045386224677568365,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.5264900453022973,
+      "std": 0.04532973638062317,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.43590346791200424,
+      "std": 0.020562627398611092,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.4401042466818221,
+      "std": 0.03797305381143167,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.6562841149939502,
+      "std": 0.02925253973115438,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.6669036166609522,
+      "std": 0.02452683880568084,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.4570017365107657,
+      "std": 0.018543432110093586,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.4641942292644491,
+      "std": 0.03467640116372321,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.7503866584861513,
+      "std": 0.03044367929258095,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.7489748208228301,
+      "std": 0.0300043688622068,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.46427233226615555,
+      "std": 0.015300264221270975,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.4723996113273536,
+      "std": 0.03468028372266288,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.764617335249741,
+      "std": 0.021310430018470713,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.7918794612476937,
+      "std": 0.021116685858361683,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.19628193201641259,
+      "std": 0.051778093998100225,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.049906524391977694,
+      "std": 0.08163996419528902,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.07632035927443614,
+      "std": 0.08949086512777966,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.09369097077740277,
+      "std": 0.06718846842870317,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.2693642528735498,
+      "std": 0.0250387181699813,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.13706223356698,
+      "std": 0.05713928657078208,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.21985177968363803,
+      "std": 0.08030187060639826,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.23640384602175946,
+      "std": 0.07148300571292947,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.3074179055616092,
+      "std": 0.015255917974022364,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.3381754113914721,
+      "std": 0.03199464643908916,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.48128705697114904,
+      "std": 0.041193119172386536,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.49672713657283574,
+      "std": 0.03820706017807638,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.33582277874474187,
+      "std": 0.014223319945219519,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.25888635651320796,
+      "std": 0.112082606108332,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.6599084023578802,
+      "std": 0.022291796011942217,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.6546234859853606,
+      "std": 0.028442779591028092,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.3466417521068944,
+      "std": 0.011930400902395286,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.2137921550977594,
+      "std": 0.019970196590114248,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.6986341984456106,
+      "std": 0.023352765246983122,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.7382139270160047,
+      "std": 0.022933150652134873,
+      "count": 8
+    }
+  ],
+  "test_D_pearson": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.566571973991791,
+      "std": 0.07404589083397375,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.5713582530642183,
+      "std": 0.058029845454333526,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.5691639035941313,
+      "std": 0.06700579222987943,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.6446712774452122,
+      "std": 0.029889645492417207,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.6735091140211005,
+      "std": 0.030772341309916025,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.6846988012605115,
+      "std": 0.03547197231243059,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.6865959729757786,
+      "std": 0.026720118888028346,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.7508688218497548,
+      "std": 0.025509427085736086,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.7655072490474769,
+      "std": 0.01649224935103083,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.7067255291899193,
+      "std": 0.018114643279099174,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.8214120878631592,
+      "std": 0.016503792824204926,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.8179870393079703,
+      "std": 0.013839836390061434,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.7159446232884557,
+      "std": 0.018011532784803466,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.8339347926612846,
+      "std": 0.007728522328342506,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.851700724831923,
+      "std": 0.007689408468489625,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.45969176192304334,
+      "std": 0.03543419615761784,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.3713780239279685,
+      "std": 0.06732574611215478,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.4206932555960913,
+      "std": 0.031570289517966824,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.5188050600370717,
+      "std": 0.03130245151048345,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.47941781073891687,
+      "std": 0.052932544078267564,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.5003593451354662,
+      "std": 0.041000570363199186,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.5679573283455525,
+      "std": 0.033235156816345264,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.6278006783208175,
+      "std": 0.039772376292437545,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.6543668358299826,
+      "std": 0.028740085301370212,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.5964062615371819,
+      "std": 0.01901617326764057,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.7639552422184369,
+      "std": 0.013983526947222468,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.7619523018799318,
+      "std": 0.02047270916418164,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.6107564195544233,
+      "std": 0.017610863741937592,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.8012750577915259,
+      "std": 0.017144886891221747,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.8258361648091919,
+      "std": 0.019632235796446615,
+      "count": 8
+    }
+  ],
+  "test_D_spearman": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.5017274086569403,
+      "std": 0.05914608586416314,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.5040741666065588,
+      "std": 0.04968540836882983,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.5067257950779605,
+      "std": 0.04514206257570038,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.5769459923738589,
+      "std": 0.02607132975192174,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.5849742519952262,
+      "std": 0.023159211666451626,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.5996486237545713,
+      "std": 0.02795803293562748,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.6188132617115327,
+      "std": 0.025076353509362815,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.6675436274807462,
+      "std": 0.025973931803378484,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.6846190551541342,
+      "std": 0.019829781785510103,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.6363594093797038,
+      "std": 0.0246783929248348,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.749818795071126,
+      "std": 0.01820732560910605,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.7446333869733865,
+      "std": 0.018359599113556304,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.6439415518294616,
+      "std": 0.0192162258218168,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.7646705429893622,
+      "std": 0.016246956941323235,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.7840453628466331,
+      "std": 0.012411379542575601,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.4345896906914498,
+      "std": 0.023778189876314207,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.34062204519838535,
+      "std": 0.053688919976612716,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.39298632123158317,
+      "std": 0.028365504067789794,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.4946829477261218,
+      "std": 0.029525248587043758,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.4280829040969798,
+      "std": 0.05785843490373378,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.4522631224588828,
+      "std": 0.04459345491396709,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.5424772267706822,
+      "std": 0.031480942232740027,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.5695765424449039,
+      "std": 0.03143465709956964,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.5942771743640491,
+      "std": 0.024388356169144948,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.5644679262988805,
+      "std": 0.01942440945715133,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.703826938008999,
+      "std": 0.0224934515020421,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.7036119487637083,
+      "std": 0.02668665186454331,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.5746832802482555,
+      "std": 0.018315600783280154,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": NaN,
+      "std": NaN,
+      "count": 0
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.7347044780507579,
+      "std": 0.022316359157658172,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.7631069610814682,
+      "std": 0.027517410555310668,
+      "count": 8
+    }
+  ],
+  "test_D_rmse": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.18530216165135827,
+      "std": 0.009316870503277317,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.22581101740681694,
+      "std": 0.006918347646057858,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.19775171933195915,
+      "std": 0.008709228251441051,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.19514258997704687,
+      "std": 0.008388387655117659,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.17472281778447823,
+      "std": 0.006991395441902693,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.22581101740681694,
+      "std": 0.006918347646057858,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.1721666553648637,
+      "std": 0.008108068999217424,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.16838659748812948,
+      "std": 0.008287060926723423,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.17016443549498106,
+      "std": 0.00531307451157395,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.22581101740681694,
+      "std": 0.006918347646057858,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.15031696733615524,
+      "std": 0.005797685483761403,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.14583004117565615,
+      "std": 0.006029398179946562,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.16740469956333842,
+      "std": 0.003488878467546597,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.22581101740681694,
+      "std": 0.006918347646057858,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.12825025586262168,
+      "std": 0.004543023790830292,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.12953014033556484,
+      "std": 0.004304798258428085,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.16552785801315847,
+      "std": 0.0039052578002781793,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.22581101740681694,
+      "std": 0.006918347646057858,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.12446510634346757,
+      "std": 0.0036190944715152654,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.11805684221985577,
+      "std": 0.004082676578893892,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.14532338804784203,
+      "std": 0.004170154046839232,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.16308265488224066,
+      "std": 0.007942105361432973,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.15996492647999266,
+      "std": 0.007030107971595114,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.15746838517024944,
+      "std": 0.005409690609136991,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.13957010047653953,
+      "std": 0.007256922832282511,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.16308265488224066,
+      "std": 0.007942105361432973,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.15239111839447833,
+      "std": 0.007425739694407742,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.1484837998025389,
+      "std": 0.008165636316169525,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.1356689044416642,
+      "std": 0.005910937695821634,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.16308265488224066,
+      "std": 0.007942105361432973,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.13039134498100302,
+      "std": 0.006122269490083217,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.12496703461147649,
+      "std": 0.006857607092944459,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.13360145016386818,
+      "std": 0.006322453605888639,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.16308265488224066,
+      "std": 0.007942105361432973,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.1053479692763893,
+      "std": 0.004031647336270222,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.10562968199842421,
+      "std": 0.005002953833481286,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.1322411974998524,
+      "std": 0.0062755893972806474,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.16308265488224066,
+      "std": 0.007942105361432973,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.09762023443698592,
+      "std": 0.004188711002020645,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.09192545206597058,
+      "std": 0.004278672380590976,
+      "count": 8
+    }
+  ],
+  "test_ordering_accuracy": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.7997013184297075,
+      "std": 0.03064158488958308,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.7991266771609107,
+      "std": 0.030994594368099523,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.8015250977443072,
+      "std": 0.028618270390374796,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.8450401775430417,
+      "std": 0.021450040380887537,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.839425012423888,
+      "std": 0.019857374843761787,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.8499700491942448,
+      "std": 0.021396434823144163,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.8653109564571635,
+      "std": 0.019357046891416884,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.8820535114792987,
+      "std": 0.013009456155739568,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.8882360237465935,
+      "std": 0.011175576728361529,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.8626954933671397,
+      "std": 0.013302237612070139,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.9221830423334607,
+      "std": 0.01152227056298932,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.9162766332466754,
+      "std": 0.01592340961891956,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.8680225466526779,
+      "std": 0.008112995374981937,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.9262447733372668,
+      "std": 0.010383092457486854,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.9387232223575026,
+      "std": 0.010978406942530649,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.760407448778808,
+      "std": 0.008570009868291891,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.694087017918444,
+      "std": 0.03923300019284739,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.7343732311792224,
+      "std": 0.013128983869209881,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.7900227891379212,
+      "std": 0.014895750944265401,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.7439197188056063,
+      "std": 0.031099789138150685,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.7621789432691687,
+      "std": 0.019845133521062496,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.824613117368923,
+      "std": 0.01801798066638421,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.8258997654626168,
+      "std": 0.006425298600115653,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.8444466641871347,
+      "std": 0.011874335736653831,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.8372484130133229,
+      "std": 0.014315752079894445,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.9027809897410675,
+      "std": 0.01228256552818619,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.9018248748238356,
+      "std": 0.013637463314930098,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.8416767552171746,
+      "std": 0.012876708263943368,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.9185769951214794,
+      "std": 0.014201949266551285,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.9305079168713578,
+      "std": 0.016911778185033317,
+      "count": 8
+    }
+  ],
+  "test_ordering_balanced_accuracy": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.7981587324686878,
+      "std": 0.03585999529492829,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.7986876004677685,
+      "std": 0.03549272060203644,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.8005767164820831,
+      "std": 0.03362517971203964,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.844542749983647,
+      "std": 0.019828488259022354,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.8393402405287679,
+      "std": 0.018317189311536135,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.8510984141339817,
+      "std": 0.02009293649099885,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.8650469440066305,
+      "std": 0.02036530668379278,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.8811640899952354,
+      "std": 0.013005163206469378,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.8875090385234725,
+      "std": 0.009918473112253164,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.8631710034424251,
+      "std": 0.014752410696473187,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.9228207412686074,
+      "std": 0.01099365557616859,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.9166471112515426,
+      "std": 0.01572623571943882,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.8680835814524117,
+      "std": 0.008869134063599711,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.9265472608698029,
+      "std": 0.011716091645406402,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.9385682351956127,
+      "std": 0.011414619164905042,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.7597517630457169,
+      "std": 0.010166218886959778,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.6932826187989642,
+      "std": 0.03973637822106083,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.7335263329726966,
+      "std": 0.013979855231586055,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.7895157112326134,
+      "std": 0.01482713960954215,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.7436576269869704,
+      "std": 0.031432797476201,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.7620114321430531,
+      "std": 0.020116592961943354,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.8240114653317595,
+      "std": 0.018133786470860898,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.8253303145653741,
+      "std": 0.006322648156681053,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.8439082571984586,
+      "std": 0.011118657637032727,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.8369174378208711,
+      "std": 0.01426880860404905,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.902608062512963,
+      "std": 0.012344700546441387,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.9013601370811813,
+      "std": 0.013439997733201965,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.8411986926906725,
+      "std": 0.012912095162737006,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.5,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.9184754322752124,
+      "std": 0.014092962476364485,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.9303737463281914,
+      "std": 0.01681352079608195,
+      "count": 8
+    }
+  ],
+  "test_pred_A_rms_ratio": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.5655341559868095,
+      "std": 0.04074936881682805,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.8748981746211227,
+      "std": 0.09604038728240895,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.8434235485201727,
+      "std": 0.07930065771042122,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.5161192117277225,
+      "std": 0.04186359393264251,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.8639536333230347,
+      "std": 0.044602194619322556,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.8424084271262546,
+      "std": 0.06310470700434867,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.48168348268744177,
+      "std": 0.029422359225842725,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.8503887621812622,
+      "std": 0.03599201539163149,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.8260490679328534,
+      "std": 0.037807362893743056,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.48021511302751685,
+      "std": 0.011543337212793667,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.8176220964973046,
+      "std": 0.01718943248390104,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.8350150838438288,
+      "std": 0.020169606150400744,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.48732052523600017,
+      "std": 0.016915615574331296,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.8006710269692472,
+      "std": 0.01506579295437439,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.8405073892962756,
+      "std": 0.023669129456603308,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.4945153855004411,
+      "std": 0.11177145004330435,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.5530199499616818,
+      "std": 0.34307446400140795,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.6651184392504365,
+      "std": 0.25596349618575165,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.47756867053868995,
+      "std": 0.04517987483931041,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.8049734836178121,
+      "std": 0.05108120566988696,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.7805522517078247,
+      "std": 0.05834320637403661,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.443181830418548,
+      "std": 0.03174146195019619,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.8155880244502396,
+      "std": 0.04291976572772237,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.7766005219017604,
+      "std": 0.048602648832849156,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.43266904047138205,
+      "std": 0.02609309174318744,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.7977753257469562,
+      "std": 0.030364040864237128,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.7841017635627802,
+      "std": 0.04194567786169078,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.4349034017807939,
+      "std": 0.01251481727340588,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.7666086433212811,
+      "std": 0.027220235842708534,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.8027315656111255,
+      "std": 0.03517813872085552,
+      "count": 8
+    }
+  ],
+  "test_head_A_over_sym": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.773126768955975,
+      "std": 0.1542543398814629,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.7976413468210432,
+      "std": 0.12095193549498233,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.7410499036469996,
+      "std": 0.06798979583623123,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.7459012919034932,
+      "std": 0.07407008211192338,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.7033508305064181,
+      "std": 0.08544021751808052,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.7163524386936571,
+      "std": 0.04203469402779649,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.48730391869002104,
+      "std": 0.07354606791218775,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.6721316783827873,
+      "std": 0.07655178435230398,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.4460410468235404,
+      "std": 0.02180085639079479,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.6463066389785812,
+      "std": 0.128775528096448,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.7080176658574604,
+      "std": 0.2897691437411148,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.7159936839430946,
+      "std": 0.2885514881263406,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.8101311549244379,
+      "std": 0.11792806324186751,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.8020713070785708,
+      "std": 0.110613375223584,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.7877756951367113,
+      "std": 0.06920878088872863,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.7522008138224127,
+      "std": 0.10143481664494725,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.5608114968055845,
+      "std": 0.13896930868192953,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.7285739928066507,
+      "std": 0.06177339829922872,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.4019603867777525,
+      "std": 0.02236744895102376,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.6563596402426691,
+      "std": 0.08004013848278083,
+      "count": 8
+    }
+  ],
+  "test_first_order_A_rms_std_units": [
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.34719163179397583,
+      "std": 0.027261013956164155,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.05985394516028464,
+      "std": 0.034592524420711535,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.09773980313912034,
+      "std": 0.0796576269695039,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.31724312901496887,
+      "std": 0.028678366482890936,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.04041527514345944,
+      "std": 0.016595029043449505,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.08517296891659498,
+      "std": 0.030858864358025182,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.30521050468087196,
+      "std": 0.01977271439401625,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.032929463777691126,
+      "std": 0.01166068275158888,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.05679174652323127,
+      "std": 0.03911190408782961,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.30243324488401413,
+      "std": 0.01418176334926253,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.024269049521535635,
+      "std": 0.0074389769962084394,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.018278185394592583,
+      "std": 0.004986412486612115,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.30691253766417503,
+      "std": 0.014152288585012933,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.023850965779274702,
+      "std": 0.0027633655667598147,
+      "count": 8
+    },
+    {
+      "screen": "A375",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.01614992367103696,
+      "std": 0.006829790789872517,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "additive",
+      "mean": 0.30319463461637497,
+      "std": 0.06900338099317795,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "structured",
+      "mean": 0.06372748536523432,
+      "std": 0.033543651931075856,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.05,
+      "family": "unrestricted",
+      "mean": 0.10775254550389946,
+      "std": 0.06862497884306654,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "additive",
+      "mean": 0.2962263859808445,
+      "std": 0.027947440377911744,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "structured",
+      "mean": 0.04719918849878013,
+      "std": 0.033982431951520634,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.1,
+      "family": "unrestricted",
+      "mean": 0.059601944871246815,
+      "std": 0.05479193228353109,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "additive",
+      "mean": 0.28122129663825035,
+      "std": 0.02113128376084537,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "structured",
+      "mean": 0.0407507864292711,
+      "std": 0.03857331874420997,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.2,
+      "family": "unrestricted",
+      "mean": 0.07251402968540788,
+      "std": 0.06312698369734306,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "additive",
+      "mean": 0.27389153465628624,
+      "std": 0.01472569503747762,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "structured",
+      "mean": 0.018610673025250435,
+      "std": 0.004152905905585832,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.4,
+      "family": "unrestricted",
+      "mean": 0.02146987710148096,
+      "std": 0.009228219687338588,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "additive",
+      "mean": 0.2735157273709774,
+      "std": 0.015175327686324885,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "order_insensitive",
+      "mean": 0.0,
+      "std": 0.0,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "structured",
+      "mean": 0.018956484040245414,
+      "std": 0.0014643374024722114,
+      "count": 8
+    },
+    {
+      "screen": "PANC1",
+      "coverage": 0.7,
+      "family": "unrestricted",
+      "mean": 0.013587102759629488,
+      "std": 0.0024093324712496913,
+      "count": 8
+    }
+  ]
+}

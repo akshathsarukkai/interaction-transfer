@@ -1,0 +1,44 @@
+{
+  "verdict_posthoc": "PAIR-SPECIFIC ENTITY TRANSFER",
+  "single_change": "criterion (f) and its validity gate read incremental pair skill instead of skill-against-zero",
+  "criteria": {
+    "potential_beats_zero": true,
+    "a_both_positive": true,
+    "b_incremental_above_floor": true,
+    "c_both_tests_significant": true,
+    "d_folds_favouring": true,
+    "e_pearson_positive": true,
+    "f_controls_collapse": true,
+    "g_not_analogue_confined": true
+  },
+  "invalidating_reasons": [],
+  "controls_on_incremental": {
+    "random": {
+      "present": true,
+      "n_folds": 20,
+      "mean": -0.0006675126864165992,
+      "max": 0.07695112190510778
+    },
+    "shuffled": {
+      "present": true,
+      "n_folds": 20,
+      "mean": -0.0015912480623190783,
+      "max": 0.021777425039926634
+    }
+  },
+  "low_similarity_stratum": {
+    "A375": {
+      "n_drugs": 40,
+      "mean": 0.01595470369087988,
+      "p": 0.12833720091030762,
+      "significant_at_0.05": false
+    },
+    "PANC1": {
+      "n_drugs": 40,
+      "mean": 0.014578475017290699,
+      "p": 0.2155501182138029,
+      "significant_at_0.05": false
+    }
+  },
+  "g_as_written_passes": true
+}

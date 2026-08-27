@@ -1,0 +1,22 @@
+{
+  "generated": "2026-08-25",
+  "generator": "scripts/prepare_phase3_drugs.py",
+  "sources": {
+    "pubchem_pug_rest": "https://pubchem.ncbi.nlm.nih.gov/rest/pug",
+    "chembl_web_services": "https://www.ebi.ac.uk/chembl/api/data"
+  },
+  "salt_policy": "largest covalent fragment (RDKit), except that molecules containing a metal or metalloid are kept whole; covalent esters and prodrugs are one fragment and survive intact",
+  "min_fragment_ratio": 2.0,
+  "n_labels": 100,
+  "n_with_structure": 100,
+  "n_flagged": 10,
+  "n_audit_overrides": 3,
+  "audit_overrides": [
+    "Carboplatin",
+    "Pentostatin",
+    "Vincristine Sulfate"
+  ],
+  "n_cached_responses": 681,
+  "cache_sha256": "18a7d06c3a988ed48be9aeb30dfc4a9ab764679275188345afcf0af19e6d3878",
+  "mapping_sha256": "2f9f6afa54bb2a902456cfe8c54dfa1f0df4d0a170354d14726741db5e0ba109"
+}

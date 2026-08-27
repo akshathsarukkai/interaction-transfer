@@ -1,0 +1,345 @@
+name: tests
+
+# The repository is a research artifact, so what CI has to certify is narrow but
+# non-negotiable: that a clean checkout on a machine nobody has been debugging on
+# still installs, still passes the invariant/leakage/reproducibility tests, and
+# still runs the pipeline end to end. It deliberately does NOT run the Phase 1
+# sweep -- that is hours of CPU and is reproduced from `results/phase1.jsonl`,
+# which is committed.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Tests
+        run: pytest -q
+
+  smoke:
+    # The pipeline check: generator -> split -> train -> evaluate -> report, on a
+    # grid small enough to finish in a minute. It catches the failures the unit
+    # tests cannot -- a spec the runner cannot build, a sweep that writes rows the
+    # analysis cannot read, a report that raises on real input.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Smoke experiment
+        run: python scripts/run_phase1.py --smoke --workers 2
+
+      - name: Regenerate the report from the committed results
+        # Must not modify anything: every Phase 1 number is generated from
+        # results/phase1.jsonl, so a diff here means the committed document no
+        # longer matches the committed results.
+        #
+        # The injection target is docs/PHASE1_SYNTHETIC.md, not README.md. The
+        # generated block is ~120 lines of tables, which belongs in the phase
+        # document a reader reaches for the detail, not on the landing page.
+        run: |
+          python scripts/make_report.py \
+            --results results/phase1.jsonl \
+            --outdir results/summary \
+            --inject docs/PHASE1_SYNTHETIC.md
+          git --no-pager diff --stat -- docs/PHASE1_SYNTHETIC.md results/summary/report.md
+          git diff --quiet -- docs/PHASE1_SYNTHETIC.md results/summary/report.md \
+            || { echo "::error::docs/PHASE1_SYNTHETIC.md or results/summary/report.md is stale with respect to results/phase1.jsonl -- rerun scripts/make_report.py and commit"; exit 1; }
+
+  phase2-fixture:
+    # Phase 2 has an external dependency (a 1.7 MB Mendeley deposit) that CI must
+    # not fetch: a green build should never require a third-party host to be up,
+    # and a silent change to the deposit should surface as a digest failure when
+    # someone runs the download, not as a mystery CI break. So the ingestion,
+    # split, model and target logic run against a generated 12-drug fixture in
+    # the deposit's exact column schema, and the whole job finishes in seconds.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Phase 2 invariants on the tiny fixture
+        run: pytest -q tests/test_phase2_real_data.py
+
+      - name: Fixture is reproducible from its generator
+        # The fixture is generated, not vendored from the real screen. If the
+        # generator and the committed CSVs ever disagree, a test failure would be
+        # ambiguous between "the code broke" and "the fixture drifted".
+        run: |
+          python tests/fixtures/make_fixture.py
+          git diff --quiet -- tests/fixtures/koplev_tiny \
+            || { echo "::error::tests/fixtures/koplev_tiny no longer matches tests/fixtures/make_fixture.py"; git --no-pager diff --stat -- tests/fixtures/koplev_tiny; exit 1; }
+
+  dchain-null:
+    # The estimator-artifact falsification. CI runs the null's *logic* and never
+    # its MCMC: a single simulated screen through the published sampler is ~100
+    # minutes of one core, and the ensemble is ten hours. What is checked here is
+    # everything that decides whether the experiment means anything -- that the
+    # generative null contains no reusable pair structure, that a mutation which
+    # inserts some is caught, that the synergy port matches a transliteration of
+    # the authors' R, that the adapter preserves pair orientation, and that
+    # Phase 2R is called rather than reimplemented.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Null-integrity tests
+        # The tests that need the Mendeley deposit or the fetched C++ source skip
+        # themselves; CI must not depend on a third-party host being up. The
+        # deposit-identity checks are the fidelity evidence and are run by
+        # scripts/prepare_dchain_null.py on a machine that has the data.
+        run: pytest -q tests/test_dchain_null.py
+
+      - name: Pipeline check, no MCMC and no network
+        # simulate -> estimate -> Hodge -> adapt -> Phase 2R, on 60 drugs with the
+        # unshared control estimator. Writes to its own smoke.jsonl, which is
+        # gitignored: a pipeline check is not a result.
+        # --raw-dir points at the 12-drug fixture, so the check needs neither the
+        # Mendeley deposit nor a network. It reaches raw data only for the
+        # sign-accuracy threshold, which is exploratory and decides nothing.
+        run: |
+          python scripts/run_dchain_null.py --part smoke --workers 2 \
+            --raw-dir tests/fixtures/koplev_tiny
+
+      - name: Pipeline check, no deposit and no network
+        # map -> split entities -> featurise -> train -> evaluate on the 12-drug
+        # fixture with real SMILES. Catches what the unit tests cannot: a spec
+        # the runner cannot build, a sweep that writes rows the analysis cannot
+        # read. Writes to its own smoke.jsonl, which is gitignored -- a pipeline
+        # check is not a result.
+        run: |
+          python scripts/run_phase3_entity_ood.py --part smoke --workers 2 \
+            --raw-dir tests/fixtures/koplev_tiny \
+            --mapping tests/fixtures/koplev_tiny/drug_mapping.csv \
+            --fold-geometry 1 3 3
+
+      - name: Reported tables match the result files
+        # The Phase 2R audit found four hand-copied p-values that matched no run
+        # in the repository. Every table in the falsification document is
+        # generated; this fails if the committed document has drifted from the
+        # committed metrics.
+        run: |
+          if [ -f results/dchain_null/metrics.jsonl ]; then
+            python scripts/report_dchain_null.py
+            git diff --quiet -- docs/dchain_null_falsification.md \
+              || { echo "::error::the falsification document is stale with respect to results/dchain_null/metrics.jsonl -- rerun scripts/report_dchain_null.py and commit"; git --no-pager diff -- docs/dchain_null_falsification.md; exit 1; }
+          else
+            echo "no committed null metrics yet; nothing to check"
+          fi
+
+  phase3-entity-ood:
+    # The entity-level OOD experiment. CI runs the pipeline's *logic* and never
+    # the sweep: 690 conditions is about an hour on six cores. It also never
+    # touches PubChem or ChEMBL -- a green build must not depend on a third-party
+    # database being up, and the mapping is committed with a provenance digest
+    # over its cached responses, so a silent re-curation surfaces when someone
+    # runs the preparation script, not as a mystery CI break.
+    #
+    # What is checked is everything that decides whether the result means
+    # anything: that a test drug reaches no fitted quantity, that the leakage
+    # guard fails when a test drug is planted in training, that hyperparameter
+    # selection cannot see a test pair, that every rung is exactly antisymmetric
+    # and starts at zero with no dead parameters, and that the whole pipeline --
+    # map, split entities, featurise, train, evaluate -- runs end to end on the
+    # 12-drug fixture with real SMILES and no network.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Entity-OOD invariants
+        run: pytest -q tests/test_phase3_entity_ood.py
+
+      - name: Fixture mapping is reproducible from its generator
+        run: |
+          python tests/fixtures/make_fixture.py
+          git diff --quiet -- tests/fixtures/koplev_tiny \
+            || { echo "::error::tests/fixtures/koplev_tiny no longer matches tests/fixtures/make_fixture.py"; git --no-pager diff --stat -- tests/fixtures/koplev_tiny; exit 1; }
+
+      - name: Pipeline check, no deposit and no network
+        # map -> split entities -> featurise -> train -> evaluate on the 12-drug
+        # fixture with real SMILES. Catches what the unit tests cannot: a spec
+        # the runner cannot build, a sweep that writes rows the analysis cannot
+        # read. Writes to its own smoke.jsonl, which is gitignored -- a pipeline
+        # check is not a result.
+        run: |
+          python scripts/run_phase3_entity_ood.py --part smoke --workers 2 \
+            --raw-dir tests/fixtures/koplev_tiny \
+            --mapping tests/fixtures/koplev_tiny/drug_mapping.csv \
+            --fold-geometry 1 3 3
+
+      - name: Reported tables match the result files
+        # Phase 2R's audit found four hand-copied p-values matching no run in the
+        # repository. Every Phase 3 table is generated; this fails if a committed
+        # document has drifted from the committed metrics. Both scripts read only
+        # committed artifacts -- the mapping CSV and the result JSONL -- so this
+        # runs on a clean checkout with no deposit and no network.
+        #
+        # Scoped to the DOCUMENTS, not to summary/. The documents format every
+        # number to three or four decimals, so they regenerate byte-identically
+        # anywhere. summary/*.json and summary/*.csv carry full-precision floats
+        # and p-values, which do not survive a change of numpy/scipy/pandas
+        # version -- this check failed on CI's library versions while being green
+        # locally, which makes it a version detector rather than a drift
+        # detector. The guarantee worth having is that no number in a document
+        # was typed by hand, and that is exactly what this now asserts.
+        run: |
+          python scripts/audit_phase3_drugs.py > /dev/null
+          if [ -f results/phase3_entity_ood/primary.jsonl ]; then
+            python scripts/report_phase3_entity_ood.py --no-figures
+          fi
+          git diff --quiet -- docs/phase3_entity_ood.md docs/phase3_drug_mapping.md \
+            || { echo "::error::a Phase 3 document is stale with respect to results/phase3_entity_ood/ -- rerun scripts/report_phase3_entity_ood.py and scripts/audit_phase3_drugs.py, then commit"; git --no-pager diff -- docs/phase3_entity_ood.md docs/phase3_drug_mapping.md; exit 1; }
+
+  phase4-chemlex:
+    # External chemical validation. CI runs the pipeline's *logic* and never the
+    # sweep: 173 conditions is about two hours on seven cores. It also never
+    # touches Zenodo -- a green build must not depend on a third-party host being
+    # up, and the deposit is CC BY-NC 4.0, so it is not ours to vendor. The
+    # ingestion, split, feature, model, train and evaluate logic run against a
+    # generated 14-acid x 12-amine fixture in the deposit's exact nine-column
+    # schema, and the whole job finishes in under a minute.
+    #
+    # What is checked is everything that decides whether the result means
+    # anything: that no test reactant of either role reaches a fitted quantity,
+    # that the leakage guard fails when one is planted, that a transposed bucket
+    # table is caught, that stereoisomers and ECFP4 feature twins cannot straddle
+    # a fold, that hyperparameter selection cannot see a test entity, that every
+    # rung is exactly its simpler form at initialisation with no dead
+    # interaction gradient, that blinding uses the training marginal and not a
+    # zero vector, and that the whole pipeline runs end to end with no network.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Phase 4 invariants
+        # The tests that need the Zenodo deposit or committed results skip
+        # themselves; CI must not depend on a third-party host being up.
+        run: pytest -q tests/test_phase4_chemlex.py
+
+      - name: Fixture is reproducible from its generator
+        # The fixture is generated, not sampled from the deposit. If the
+        # generator and the committed workbook ever disagree, a test failure
+        # would be ambiguous between "the code broke" and "the fixture drifted".
+        #
+        # Compares CONTENT, not bytes. An .xlsx is a zip archive and openpyxl
+        # stamps a creation time into it, so two builds of the identical table
+        # differ in a byte and never in a cell -- a `git diff` here catches the
+        # clock, fails on every run, and trains everyone to ignore the check.
+        # (The Phase 2/3 fixtures are CSV, which is why they can be diffed.)
+        run: python tests/fixtures/make_chemlex_fixture.py --check
+
+      - name: Pipeline check, no deposit and no network
+        # ingest -> split entities -> featurise -> train -> evaluate -> report on
+        # the fixture. Catches what the unit tests cannot: a spec the runner
+        # cannot build, a sweep that writes rows the analysis cannot read.
+        # Writes to its own smoke.jsonl, which is gitignored -- a pipeline check
+        # is not a result.
+        run: |
+          python scripts/run_phase4_chemlex.py --part smoke --workers 2 \
+            --raw-dir tests/fixtures/chemlex_tiny
+
+      - name: Reported tables match the result files
+        # Phase 2R's audit found four hand-copied p-values matching no run in the
+        # repository. Every Phase 4 table is generated; this fails if a committed
+        # document has drifted from the committed metrics.
+        #
+        # Scoped to the DOCUMENTS, not to summary/. The documents format every
+        # number to three or four decimals and regenerate byte-identically
+        # anywhere; summary/*.csv carries full-precision floats that do not
+        # survive a change of numpy/scipy/pandas version, which would make this a
+        # version detector rather than a drift detector. That exact mistake was
+        # made in the Phase 3 job and had to be undone.
+        run: |
+          if [ -f results/phase4_chemlex/primary.jsonl ] && [ -f data/raw/chemlex2025/Chemlex_Acidamine_Wetlab_Data.xlsx ]; then
+            python scripts/report_phase4_chemlex.py --no-figures
+            git diff --quiet -- docs/phase4_chemlex_dataset.md docs/phase4_chemlex_mapping.md docs/phase4_chemlex_interactions.md \
+              || { echo "::error::a Phase 4 document is stale with respect to results/phase4_chemlex/ -- rerun scripts/report_phase4_chemlex.py and commit"; git --no-pager diff -- docs/phase4_chemlex_dataset.md docs/phase4_chemlex_mapping.md docs/phase4_chemlex_interactions.md; exit 1; }
+          else
+            echo "the CC BY-NC deposit is not fetched in CI, so the documents cannot be regenerated here; the drift check runs on a machine that has it"
+          fi
+
+      - name: No third-party substrate structures in the committed results
+        # The deposit is CC BY-NC 4.0. Its reactant inventory once reached the
+        # committed per-entity CSVs through a `smiles` column -- 497 of its 503
+        # distinct structures, which is the deposit's substrate list in all but
+        # name, in a repository that says six times over that the deposit is not
+        # ours to vendor. The writers now drop the column; this makes putting it
+        # back a build failure rather than a licensing incident.
+        run: |
+          if grep -rl 'smiles' results/ ; then
+            echo "::error::a committed result carries a 'smiles' column; the ChemLex deposit's substrate structures must not be redistributed -- see THIRD_PARTY_DATA.md"
+            exit 1
+          fi
+          echo "no substrate structures in results/"

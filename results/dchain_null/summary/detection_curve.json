@@ -1,0 +1,74 @@
+[
+  {
+    "artifact_share_of_D": 0.0,
+    "cal_skill": 0.0005489967619212721,
+    "cal_skill_max": 0.0024739206789834434,
+    "top2": 0.0728084446670902,
+    "rank2_share_of_D": 0.05735022947406219,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.005,
+    "cal_skill": 0.0004999265678277409,
+    "cal_skill_max": 0.0022905955014248525,
+    "top2": 0.07246416448125072,
+    "rank2_share_of_D": 0.05716213117309445,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.01,
+    "cal_skill": 0.00047722979693340384,
+    "cal_skill_max": 0.002204910223407297,
+    "top2": 0.07260875064204353,
+    "rank2_share_of_D": 0.05735575449758908,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.02,
+    "cal_skill": 0.0004429223485137024,
+    "cal_skill_max": 0.0020745902825788365,
+    "top2": 0.07842153933571386,
+    "rank2_share_of_D": 0.06211761677269047,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.05,
+    "cal_skill": 0.0002890716936723714,
+    "cal_skill_max": 0.0014500268594928034,
+    "top2": 0.10992088903857086,
+    "rank2_share_of_D": 0.08777763359168902,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.1,
+    "cal_skill": 0.06758087862502307,
+    "cal_skill_max": 0.0994238480778592,
+    "top2": 0.1665800688808291,
+    "rank2_share_of_D": 0.1348040078968963,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.13,
+    "cal_skill": 0.09918901864800511,
+    "cal_skill_max": 0.14386834495452938,
+    "top2": 0.20040056452857813,
+    "rank2_share_of_D": 0.16345495196945672,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.2,
+    "cal_skill": 0.17536631072400777,
+    "cal_skill_max": 0.22442447573083935,
+    "top2": 0.27766351350066215,
+    "rank2_share_of_D": 0.23060958331296724,
+    "n_split_seeds": 4
+  },
+  {
+    "artifact_share_of_D": 0.4,
+    "cal_skill": 0.39412307625883053,
+    "cal_skill_max": 0.4498095636020063,
+    "top2": 0.4844248531192832,
+    "rank2_share_of_D": 0.42288698157151866,
+    "n_split_seeds": 4
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "null": {
+      "variant": "strict",
+      "n_drugs": 60,
+      "sim_seed": 0,
+      "sigma_obs": 0.15,
+      "n_replicates": 3,
+      "a_concentrations": [
+        0.03,
+        0.1,
+        0.3,
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0
+      ],
+      "ab_concentrations": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "first_concentration": 1.0,
+      "p_lambda_ab": 0.5,
+      "theta_ab_logk_sd": 0.5,
+      "theta_ab_h_sd": 0.2,
+      "theta_ab_alpha_sd": 0.1,
+      "p_lambda_single": 1.0,
+      "screen_label": "A375",
+      "tag": "smoke"
+    },
+    "estimator": "unshared",
+    "est_seed": 1,
+    "iterations": 500000,
+    "burn": 100000,
+    "subsample": 200,
+    "init_phase": 20000,
+    "coverages": [
+      0.7
+    ],
+    "split_seeds": [
+      0
+    ],
+    "honest_split_seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "run_honest_block": false,
+    "keep_posterior": false
+  },
+  {
+    "null": {
+      "variant": "nuisance",
+      "n_drugs": 60,
+      "sim_seed": 0,
+      "sigma_obs": 0.15,
+      "n_replicates": 3,
+      "a_concentrations": [
+        0.03,
+        0.1,
+        0.3,
+        1.0,
+        3.0,
+        10.0,
+        30.0,
+        100.0
+      ],
+      "ab_concentrations": [
+        0.01,
+        0.1,
+        1.0,
+        10.0
+      ],
+      "first_concentration": 1.0,
+      "p_lambda_ab": 0.5,
+      "theta_ab_logk_sd": 0.5,
+      "theta_ab_h_sd": 0.2,
+      "theta_ab_alpha_sd": 0.1,
+      "p_lambda_single": 1.0,
+      "screen_label": "A375",
+      "tag": "smoke"
+    },
+    "estimator": "unshared",
+    "est_seed": 1,
+    "iterations": 500000,
+    "burn": 100000,
+    "subsample": 200,
+    "init_phase": 20000,
+    "coverages": [
+      0.7
+    ],
+    "split_seeds": [
+      0
+    ],
+    "honest_split_seeds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "run_honest_block": false,
+    "keep_posterior": false
+  }
+]

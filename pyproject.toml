@@ -1,0 +1,81 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]   # >=77 for PEP 639 licence metadata
+build-backend = "setuptools.build_meta"
+
+[project]
+# Three names, deliberately, and they are not the same name:
+#
+#   repository    interaction-transfer   -- what the work became
+#   distribution  intervention-algebra   -- what `pip install` sees
+#   import        intervention_algebra   -- what `import` sees
+#
+# The repository was renamed for the public release because the question
+# outgrew the architecture it started from. The distribution and import names
+# were not, because renaming the import package would touch every module, every
+# document and every committed result path in order to change a string, and the
+# one thing a reproducibility artifact must not do is invalidate its own
+# citations for tidiness. See README.md, "Repository layout".
+name = "intervention-algebra"
+version = "1.0.0"
+description = "Research code for studying transfer of pair-specific interaction effects from observed combinations to unseen scientific entities."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Akshath Sarukkai" }]
+keywords = [
+    "scientific-machine-learning",
+    "molecular-machine-learning",
+    "drug-combinations",
+    "reaction-prediction",
+    "out-of-distribution",
+    "compositional-generalization",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+# 3.11, not 3.10: sweep.run_sweep passes `max_tasks_per_child` to
+# ProcessPoolExecutor, which 3.11 added. On 3.10 the TypeError is swallowed by
+# the pool's serial fallback, so the sweep would run correctly but ~8x slower
+# with no error -- a worse failure than not installing.
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "torch>=2.0",
+    "scikit-learn>=1.2",
+    "pandas>=2.0",
+    "matplotlib>=3.7",
+    # Phase 3 turns drug labels into structures and structures into fingerprints.
+    # These were installed by hand during development and never declared, so CI
+    # -- which installs only what is written here -- failed every Phase 3 test
+    # with ModuleNotFoundError while the local suite was green.
+    "rdkit>=2023.9",
+    "requests>=2.31",
+    # Phase 4's deposit is an .xlsx, so pandas needs an Excel engine. Installed
+    # by hand during development and not written down, and CI -- which installs
+    # only what is declared -- failed forty Phase 4 tests with an ImportError
+    # while the local suite was green. The same defect as the undeclared rdkit
+    # above, in the same repository, four phases later; see
+    # tests/test_packaging.py, which now makes it a test failure rather than a
+    # CI mystery.
+    "openpyxl>=3.1",
+]
+
+[project.urls]
+Repository = "https://github.com/akshathsarukkai/interaction-transfer"
+Issues = "https://github.com/akshathsarukkai/interaction-transfer/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

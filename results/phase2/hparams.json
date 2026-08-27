@@ -1,0 +1,53 @@
+{
+  "selected_on": "mean validation loss",
+  "dev_split_seeds": [
+    100,
+    101
+  ],
+  "dev_coverages": [
+    0.1
+  ],
+  "grid": {
+    "lr": [
+      0.003,
+      0.01,
+      0.03
+    ],
+    "weight_decay": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "emb_dim": [
+      16,
+      32
+    ]
+  },
+  "n_dev_runs": 144,
+  "hparams": {
+    "additive": {
+      "lr": 0.03,
+      "weight_decay": 0.01,
+      "emb_dim": 16,
+      "dev_val_loss": 0.513552188873291
+    },
+    "order_insensitive": {
+      "lr": 0.03,
+      "weight_decay": 0.01,
+      "emb_dim": 16,
+      "dev_val_loss": 0.48158949613571167
+    },
+    "unrestricted": {
+      "lr": 0.03,
+      "weight_decay": 0.01,
+      "emb_dim": 16,
+      "dev_val_loss": 0.37163178622722626
+    },
+    "structured": {
+      "lr": 0.01,
+      "weight_decay": 0.01,
+      "emb_dim": 16,
+      "dev_val_loss": 0.3768444359302521
+    }
+  }
+}

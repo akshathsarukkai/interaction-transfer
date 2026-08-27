@@ -1,0 +1,44 @@
+Interaction Transfer to Unseen Scientific Entities
+Copyright 2026 Akshath Sarukkai
+
+This product includes software developed by Akshath Sarukkai.
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+------------------------------------------------------------------------------
+Third-party attributions
+------------------------------------------------------------------------------
+
+This repository does not vendor any third-party dataset or third-party source
+code. It fetches, digest-verifies and derives from the resources below. See
+THIRD_PARTY_DATA.md for the full policy, licences and reproduction commands.
+
+  Koplev et al. (2017) sequential anticancer screen
+    Mendeley Data doi:10.17632/wgybvcvjwf.1 -- CC BY 4.0
+    Fetched by scripts/download_koplev.py; not redistributed here.
+
+  ChemLex acid-amine high-throughput screen (Zhong et al., 2025)
+    Zenodo doi:10.5281/zenodo.17596563 -- CC BY-NC 4.0
+    Fetched by scripts/download_chemlex.py; not redistributed here.
+
+  d-chain sequential-response sampler
+    https://github.com/skoplev/d-chain, commit 72b2445 -- GPL-3.0
+    Fetched, patched and byte-equivalence-verified by
+    scripts/prepare_dchain_null.py; not redistributed here.
+
+    Two files quote the upstream source verbatim, with attribution, so that
+    the port and the patches can be verified line by line. Those quoted
+    fragments remain under GPL-3.0 and are not relicensed by this project's
+    LICENSE:
+
+      src/intervention_algebra/real_data/dchain_null/synergy.py
+        approximately ten lines of post/interpretMCMC.R in its docstring.
+      src/intervention_algebra/real_data/dchain_null/dchain.py
+        approximately 27 lines of dchain.cpp as patch match-strings, with
+        their edited counterparts.
+
+  PubChem (https://pubchem.ncbi.nlm.nih.gov) and ChEMBL
+  (https://www.ebi.ac.uk/chembl/)
+    Derived identifier and mechanism tables under data/external/ were generated
+    from these services by scripts/prepare_phase3_drugs.py and
+    scripts/prepare_phase3_targets.py. Consult each source for its own terms.

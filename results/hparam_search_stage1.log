@@ -1,0 +1,22 @@
+192 runs over 12 configs x 4 families
+  [25/192]  231.2s errors=0
+  [50/192]  360.2s errors=0
+  [75/192]  560.6s errors=0
+  [100/192]  593.7s errors=0
+  [125/192]  702.4s errors=0
+  [150/192]  855.4s errors=0
+  [175/192] 1099.2s errors=0
+  [192/192] 1145.6s errors=0
+additive        grid#2   val=0.8269 (n=4)  {'emb_dim': 8, 'pair_mode': 'concat', 'emb_weight_decay': 0.03, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #5   val=0.8269  {'emb_dim': 8, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.03, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #1   val=0.8305  {'emb_dim': 8, 'pair_mode': 'concat', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+unconstrained   grid#4   val=0.6041 (n=4)  {'emb_dim': 8, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #11  val=0.6263  {'emb_dim': 16, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.03, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #10  val=0.6321  {'emb_dim': 16, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+shared_pair     grid#4   val=0.5384 (n=4)  {'emb_dim': 8, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #10  val=0.6544  {'emb_dim': 16, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #11  val=0.6649  {'emb_dim': 16, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.03, 'weight_decay': 0.001, 'lr': 0.003}
+algebra         grid#4   val=0.6206 (n=4)  {'emb_dim': 8, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #11  val=0.6336  {'emb_dim': 16, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.03, 'weight_decay': 0.001, 'lr': 0.003}
+                  runner-up #10  val=0.6459  {'emb_dim': 16, 'pair_mode': 'concat_outer', 'emb_weight_decay': 0.01, 'weight_decay': 0.001, 'lr': 0.003}
+wrote results/hparams.json
